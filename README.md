@@ -40,6 +40,8 @@ The published schematics are based on reverse engineering and may contain errors
 - ⏳ UART protocol analysis
 - ⏳ Firmware investigation
 
+## Contributions, corrections and additional information are welcome.
+
 ## Disclaimer
 
 This repository contains independently created documentation based on reverse engineering.
