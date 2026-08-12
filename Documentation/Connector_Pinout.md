@@ -1,0 +1,62 @@
+# Connector Pinout
+
+## Primary Side (230 VAC)
+
+| Connector | Description |
+|-----------|-------------|
+| **P1** | ACL → Heater |
+| **P2** | ACN → Thermal safety switch → Heater |
+| **P3** | ACN → AC mains input |
+| **P4** | ACN → 24 VDC power supply |
+| **P5** | ACL → 24 VDC power supply |
+| **P6** | ACL → AC mains input |
+
+---
+
+## Secondary Side (24 VDC)
+
+| Connector | Description |
+|-----------|-------------|
+| **CN1** | 24 VDC input (from power supply) |
+| **CN2** | Reed switch (2-pin) – Water tank empty detection |
+| **CN3** | Water temperature sensor (heater outlet) |
+| **CN5** | Water temperature sensor (heater inlet) |
+| **CN6** | Internal tank level sensor (2× black wires) |
+| **CN9** | TDS sensor (2-pin) |
+| **CN10** | 6-pin actuator connector |
+| **CN11** | Display interface (5 V, TX, RX, GND) |
+| **CN12** | Water outlet valve (before heater) |
+| **CN14** | Internal tank level sensor (2× red wires) |
+
+### CN10 Pinout
+
+| Pin | Function |
+|----:|----------|
+| 1 | GND |
+| 2 | +24 V (Not connected) |
+| 3 | GND |
+| 4 | +24 V Flush Valve |
+| 5 | GND |
+| 6 | +24 V Water Pump |
+
+---
+
+# User Interface
+
+## Temperature Selection
+
+- Room Temperature (RT)
+- 45 °C
+- 55 °C
+- 80 °C
+- 90 °C
+- 100 °C
+
+## Volume Selection
+
+- 150 mL
+- 300 mL
+- 450 mL
+- 600 mL
+- 750 mL
+- 900 mL
