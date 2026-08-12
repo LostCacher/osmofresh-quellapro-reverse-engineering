@@ -29,6 +29,9 @@ Firmware/
 
 ## Project Status
 
+⚠️ This project is currently work in progress.
+The published schematics are based on reverse engineering and may contain errors or incomplete sections.
+
 - ✅ Device teardown
 - ✅ Component identification
 - ✅ Primary power stage schematic
