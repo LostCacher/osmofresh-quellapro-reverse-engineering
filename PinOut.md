@@ -1,4 +1,4 @@
-230 Vac:
+230 Vac:\n
 P1: ACL -> Heizpatrone
 P2: ACN -> Temperatursicherheitsschalter -> Heizpatrone
 P3: ACN -> Netzeingang
