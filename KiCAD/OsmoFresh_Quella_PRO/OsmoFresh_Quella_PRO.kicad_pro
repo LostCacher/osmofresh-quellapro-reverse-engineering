@@ -432,9 +432,14 @@
         "filename": "mainpcb.secondary.kicad_sch",
         "name": "MainPCB.Secondary",
         "uuid": "085f93a2-5d2b-46a2-ac0d-b864eaf3f9e9"
+      },
+      {
+        "filename": "mainpcb.connectors.kicad_sch",
+        "name": "MainPCB.Connectors",
+        "uuid": "493131d6-3630-4208-a9fe-b37a436b6d0d"
       }
     ],
-    "used_designators": "D5,C11,ZNR1,XC1,T1-2,SW1,R7,R26-28,R31-33,K1-2,Q1,FUSE1,#PWR1",
+    "used_designators": "FUSE1,Q1-2,R1-2,R7,R26-28,R31-33,R64-66,SW1,#PWR1,T1-2,XC1,ZNR1,CN1-14,CN16,K1-2,J1,C1,C11,U1,D1,D5",
     "variants": []
   },
   "sheets": [
@@ -445,6 +450,10 @@
     [
       "085f93a2-5d2b-46a2-ac0d-b864eaf3f9e9",
       "MainPCB.Secondary"
+    ],
+    [
+      "493131d6-3630-4208-a9fe-b37a436b6d0d",
+      "MainPCB.Connectors"
     ]
   ],
   "text_variables": {},
