@@ -1142,7 +1142,7 @@
 		(uuid "faa24a3c-d622-43fb-9723-af9b5355a427")
 	)
 	(global_label "TDS-"
-		(shape output)
+		(shape input)
 		(at 146.05 81.28 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1262,7 +1262,7 @@
 		)
 	)
 	(global_label "Temperature_Outlet-"
-		(shape output)
+		(shape input)
 		(at 146.05 58.42 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1478,7 +1478,7 @@
 		)
 	)
 	(global_label "UNUSED_CN8-"
-		(shape bidirectional)
+		(shape input)
 		(at 146.05 73.66 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1489,7 +1489,7 @@
 		)
 		(uuid "5b2b4fe7-b347-4b0c-8d61-9ae9debb028a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.1165 73.66 0)
+			(at 163.0052 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1550,7 +1550,7 @@
 		)
 	)
 	(global_label "Water_Tank_Empty-"
-		(shape output)
+		(shape input)
 		(at 146.05 96.52 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1742,7 +1742,7 @@
 		)
 	)
 	(global_label "UNUSED_CN8+"
-		(shape bidirectional)
+		(shape output)
 		(at 146.05 71.12 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1753,7 +1753,7 @@
 		)
 		(uuid "b50d2fef-4050-4ba2-9a97-3bc1772bf295")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.1165 71.12 0)
+			(at 163.0052 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
