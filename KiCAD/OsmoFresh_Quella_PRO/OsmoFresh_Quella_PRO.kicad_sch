@@ -2624,6 +2624,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 118.11) (xy 142.24 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10e719aa-1f68-4b54-9fc5-1627b62ca3f5")
+	)
+	(wire
+		(pts
 			(xy 110.49 116.84) (xy 110.49 124.46)
 		)
 		(stroke
@@ -2651,6 +2661,16 @@
 			(type default)
 		)
 		(uuid "23ea927b-b414-4e90-b5ea-504706fbda58")
+	)
+	(wire
+		(pts
+			(xy 93.98 116.84) (xy 110.49 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25ac072c-2d8d-4cd1-81ea-c3dd87691cf4")
 	)
 	(wire
 		(pts
@@ -2814,6 +2834,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 118.11) (xy 142.24 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c5e3858-6669-4277-9b4e-73295ab6bf46")
+	)
+	(wire
+		(pts
 			(xy 121.92 100.33) (xy 121.92 105.41)
 		)
 		(stroke
@@ -2851,16 +2881,6 @@
 			(type default)
 		)
 		(uuid "817da556-bde5-409d-a0af-984f4789a737")
-	)
-	(wire
-		(pts
-			(xy 93.98 116.84) (xy 110.49 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87376a44-f0e2-492a-98f2-fc398935c7b3")
 	)
 	(wire
 		(pts
@@ -3258,7 +3278,7 @@
 			)
 		)
 	)
-	(global_label "Current_Sense-"
+	(global_label "Transformer-"
 		(shape output)
 		(at 62.23 49.53 90)
 		(fields_autoplaced yes)
@@ -3270,7 +3290,7 @@
 		)
 		(uuid "685f06ee-1f7a-40ae-9423-fa1daf3414e6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.23 31.4863 90)
+			(at 62.23 33.6635 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3303,6 +3323,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "U3 Vin"
+		(shape input)
+		(at 151.13 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "acfbf3c5-baee-4dff-9880-b31500c3f046")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 160.4652 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -3402,7 +3446,7 @@
 			)
 		)
 	)
-	(global_label "Current_Sense+"
+	(global_label "Transformer+"
 		(shape output)
 		(at 72.39 49.53 90)
 		(fields_autoplaced yes)
@@ -3414,7 +3458,7 @@
 		)
 		(uuid "e22915d9-185c-4b7b-b6be-249fdd53d380")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.39 31.4863 90)
+			(at 72.39 33.6635 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
