@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "MainPCB Primary")
-		(date "2026-08-12")
+		(date "2026-08-13")
 		(rev "1.0.0")
 		(company "LostCacher")
 	)
@@ -2394,7 +2394,7 @@
 	)
 	(text "Vuanze Electric Y32F-SS-124HM"
 		(exclude_from_sim no)
-		(at 137.414 56.642 0)
+		(at 136.652 81.534 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3250,7 +3250,7 @@
 			)
 		)
 	)
-	(global_label "Heater_900W"
+	(global_label "Heat_900W"
 		(shape input)
 		(at 151.13 111.76 0)
 		(fields_autoplaced yes)
@@ -3262,7 +3262,7 @@
 		)
 		(uuid "3ee7cad0-fc44-40bf-a241-aa0640656192")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.3313 111.76 0)
+			(at 164.4565 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4417,7 +4417,7 @@
 		(dnp no)
 		(uuid "f55a4ebd-f6f3-4102-9c53-6dc4fd5bf5b2")
 		(property "Reference" "K1"
-			(at 137.16 51.308 90)
+			(at 137.16 54.356 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4427,7 +4427,7 @@
 			)
 		)
 		(property "Value" "10A 250Vac"
-			(at 137.16 53.848 90)
+			(at 137.16 56.896 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

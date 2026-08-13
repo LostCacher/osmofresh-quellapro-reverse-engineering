@@ -432,14 +432,9 @@
         "filename": "mainpcb.secondary.kicad_sch",
         "name": "MainPCB.Secondary",
         "uuid": "085f93a2-5d2b-46a2-ac0d-b864eaf3f9e9"
-      },
-      {
-        "filename": "mainpcb.connectors.kicad_sch",
-        "name": "MainPCB.Connectors",
-        "uuid": "493131d6-3630-4208-a9fe-b37a436b6d0d"
       }
     ],
-    "used_designators": "L1,C1-2,C5,C7,C9,C11-13,C15,C18-19,C22-26,C28,FUSE1,Q1-4,Q6-9,D1,D5-6,D8,U1,R1-2,R4,R7-8,R12-13,R16,R18,R20,R24,R26-28,R31-34,R38,R41,R44,R46,R49-54,R56,R64-69,SW1,#PWR1,T1-2,XC1,ZNR1,K1-2,J1,CN1-14,CN16",
+    "used_designators": "L1,C1-2,C5,C7,C9,C11-13,C15,C18-19,C21-26,C28-30,FUSE1,Q1-10,D1,D5-9,U1,R1-2,R4,R7-8,R12-13,R16,R18,R20,R24,R26-28,R31-34,R38-39,R41-44,R46-47,R49-54,R56-58,R64-70,SW1,#PWR1,T1-2,XC1,ZNR1,K1-2,J1,CN1-28",
     "variants": []
   },
   "sheets": [
@@ -452,8 +447,12 @@
       "MainPCB.Secondary"
     ],
     [
-      "493131d6-3630-4208-a9fe-b37a436b6d0d",
-      "MainPCB.Connectors"
+      "2b9333e9-34a2-4912-b9d7-bd9dc2d53cb4",
+      "MCU"
+    ],
+    [
+      "84030238-77a7-48ae-81d4-b10405b02eda",
+      "Connectors"
     ]
   ],
   "text_variables": {},
