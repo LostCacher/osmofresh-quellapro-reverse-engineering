@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "MainPCB Primary")
-		(date "2026-08-13")
+		(date "2026-08-14")
 		(rev "1.0.0")
 		(company "LostCacher")
 	)
@@ -1043,6 +1043,112 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "My_Default:Faston_6.3mm_1Pin"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "P"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Faston_6.3mm_1Pin_0_1"
+				(rectangle
+					(start -3.81 3.81)
+					(end 3.81 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.2755)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Faston_6.3mm_1Pin_1_1"
+				(pin bidirectional line
+					(at 0 2.54 180)
+					(length 2.54)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Relay:Relay_SPST-NO"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1915,19 +2021,6 @@
 		)
 		(uuid "1b8b4879-866e-4d02-912a-841ca4749e1d")
 	)
-	(rectangle
-		(start 33.02 127)
-		(end 45.72 129.54)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 255 238 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "36345b84-1a39-4426-80c3-925c61d285a7")
-	)
 	(circle
 		(center 152.4913 76.161)
 		(radius 1.27)
@@ -2013,45 +2106,6 @@
 		(uuid "7677c20e-9476-4779-9a00-0b50438da519")
 	)
 	(rectangle
-		(start 102.87 127)
-		(end 90.17 129.54)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 255 238 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "853c22d1-7511-4128-aef7-6ad9d79df229")
-	)
-	(rectangle
-		(start 33.02 114.3)
-		(end 45.72 116.84)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 255 238 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "86e9ea5f-442b-4563-ae28-637869395dfe")
-	)
-	(rectangle
-		(start 90.17 164.846)
-		(end 102.87 167.386)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 255 238 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "9530132e-e83c-4ada-89e1-f955367695e5")
-	)
-	(rectangle
 		(start 136.605 119.6744)
 		(end 137.875 123.4844)
 		(stroke
@@ -2110,19 +2164,6 @@
 			(type none)
 		)
 		(uuid "c212ffe1-952f-455b-b975-94f544cd44ce")
-	)
-	(rectangle
-		(start 52.07 165.1)
-		(end 64.77 167.64)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 255 238 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "c7789ebd-54ea-49d7-a046-266e9d771a65")
 	)
 	(circle
 		(center 247.6712 47.0071)
@@ -2292,26 +2333,6 @@
 		)
 		(uuid "3f00bd20-4bff-41f3-bade-efaade712ee5")
 	)
-	(text "P6"
-		(exclude_from_sim no)
-		(at 96.52 166.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "42f3b6e3-6c14-4971-be12-21bfec2ba3f2")
-	)
-	(text "P4"
-		(exclude_from_sim no)
-		(at 39.37 128.524 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "44d9f024-ce05-43a5-91a7-ec9580ef9eb8")
-	)
 	(text "P2"
 		(exclude_from_sim no)
 		(at 152.5395 79.1604 0)
@@ -2412,16 +2433,6 @@
 		)
 		(uuid "abbc6518-bc2b-4df3-b033-c116b0e73107")
 	)
-	(text "P10"
-		(exclude_from_sim no)
-		(at 39.37 115.824 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "af1dc1ab-c68e-4abb-ad8f-3924ad97ac14")
-	)
 	(text "N"
 		(exclude_from_sim no)
 		(at 247.65 102.362 0)
@@ -2441,16 +2452,6 @@
 			)
 		)
 		(uuid "b42bf3ab-ed62-46c0-9332-fda452e57cec")
-	)
-	(text "P3"
-		(exclude_from_sim no)
-		(at 58.42 166.624 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b97cd71a-6b1f-4093-9a44-139377db27ac")
 	)
 	(text "(Color: Red)"
 		(exclude_from_sim no)
@@ -2481,16 +2482,6 @@
 			)
 		)
 		(uuid "cf3dcf3c-0a7a-47cb-a183-46d002009b73")
-	)
-	(text "P5"
-		(exclude_from_sim no)
-		(at 96.52 128.524 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d1c7748a-8907-468f-896a-75960fc9ced8")
 	)
 	(text "(Color: Black)"
 		(exclude_from_sim no)
@@ -2704,6 +2695,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 115.57) (xy 58.42 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f8f3334-742a-4fc2-a1ed-b26c9a5d6dbe")
+	)
+	(wire
+		(pts
 			(xy 77.47 92.71) (xy 121.92 92.71)
 		)
 		(stroke
@@ -2814,16 +2815,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 115.57) (xy 58.42 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "759501b0-3a25-480b-8eec-95d5dfb3bb6a")
-	)
-	(wire
-		(pts
 			(xy 72.39 152.4) (xy 77.47 152.4)
 		)
 		(stroke
@@ -2841,6 +2832,16 @@
 			(type default)
 		)
 		(uuid "7c5e3858-6669-4277-9b4e-73295ab6bf46")
+	)
+	(wire
+		(pts
+			(xy 39.37 128.27) (xy 58.42 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c92497f-8e90-42f4-a9c4-bd8fd31b9de2")
 	)
 	(wire
 		(pts
@@ -2884,23 +2885,13 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 152.4) (xy 58.42 165.1)
+			(xy 58.42 152.4) (xy 58.42 166.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8b75b0e5-a45c-4bb3-a49d-12fab97ef20e")
-	)
-	(wire
-		(pts
-			(xy 45.72 128.27) (xy 58.42 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "925f20f0-9079-4393-95ca-8c3ba6e1da4a")
 	)
 	(wire
 		(pts
@@ -3164,7 +3155,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 152.4) (xy 96.52 165.1)
+			(xy 96.52 152.4) (xy 96.52 166.37)
 		)
 		(stroke
 			(width 0)
@@ -3184,7 +3175,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 128.27) (xy 77.47 128.27)
+			(xy 77.47 128.27) (xy 96.52 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3615,6 +3606,162 @@
 			(project "OsmoFresh_Quella_PRO"
 				(path "/fa934e2d-e6dc-4af7-b9d3-1332cdb541a5"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "My_Default:Faston_6.3mm_1Pin")
+		(at 39.37 130.81 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1a45c2ae-7761-4b21-8da9-f70803020848")
+		(property "Reference" "P4"
+			(at 34.29 128.2699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 39.37 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 39.37 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "167a0334-7ca0-4b25-b998-447afc5a8646")
+		)
+		(instances
+			(project "OsmoFresh_Quella_PRO"
+				(path "/fa934e2d-e6dc-4af7-b9d3-1332cdb541a5"
+					(reference "P4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "My_Default:Faston_6.3mm_1Pin")
+		(at 96.52 168.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3dc294a6-1892-4086-a59f-3119c5747740")
+		(property "Reference" "P6"
+			(at 101.6 166.3699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 96.52 168.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "b21bc6dd-0497-4242-9261-82cb2f1e401c")
+		)
+		(instances
+			(project "OsmoFresh_Quella_PRO"
+				(path "/fa934e2d-e6dc-4af7-b9d3-1332cdb541a5"
+					(reference "P6")
 					(unit 1)
 				)
 			)
@@ -4271,6 +4418,162 @@
 		)
 	)
 	(symbol
+		(lib_id "My_Default:Faston_6.3mm_1Pin")
+		(at 39.37 118.11 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d7d3bc07-a350-4d85-a722-1c348852c5ff")
+		(property "Reference" "P7"
+			(at 34.29 115.5699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 39.37 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 39.37 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "60900eaa-9b19-431a-94aa-e1f49f5a779f")
+		)
+		(instances
+			(project "OsmoFresh_Quella_PRO"
+				(path "/fa934e2d-e6dc-4af7-b9d3-1332cdb541a5"
+					(reference "P7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "My_Default:Faston_6.3mm_1Pin")
+		(at 96.52 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc17d198-5067-4ff8-8f86-ad328045ac68")
+		(property "Reference" "P5"
+			(at 101.6 128.2699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 96.52 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "a7003db1-5c4e-4022-b4fd-0cf88b0e193f")
+		)
+		(instances
+			(project "OsmoFresh_Quella_PRO"
+				(path "/fa934e2d-e6dc-4af7-b9d3-1332cdb541a5"
+					(reference "P5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Varistor")
 		(at 68.58 152.4 90)
 		(unit 1)
@@ -4574,6 +4877,84 @@
 			(project "OsmoFresh_Quella_PRO"
 				(path "/fa934e2d-e6dc-4af7-b9d3-1332cdb541a5"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "My_Default:Faston_6.3mm_1Pin")
+		(at 58.42 168.91 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fa497639-7a12-45b0-b230-0122e1e3d265")
+		(property "Reference" "P3"
+			(at 53.34 166.3699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 58.42 168.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "53c85819-75c4-4fa7-aaae-7848daa6c68e")
+		)
+		(instances
+			(project "OsmoFresh_Quella_PRO"
+				(path "/fa934e2d-e6dc-4af7-b9d3-1332cdb541a5"
+					(reference "P3")
 					(unit 1)
 				)
 			)
