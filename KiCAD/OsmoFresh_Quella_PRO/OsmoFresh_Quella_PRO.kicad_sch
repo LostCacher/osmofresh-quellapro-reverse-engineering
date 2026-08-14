@@ -3322,7 +3322,7 @@
 			)
 		)
 	)
-	(global_label "Transformer-"
+	(global_label "AC_Sense-"
 		(shape output)
 		(at 62.23 49.53 90)
 		(fields_autoplaced yes)
@@ -3334,7 +3334,7 @@
 		)
 		(uuid "685f06ee-1f7a-40ae-9423-fa1daf3414e6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.23 33.6635 90)
+			(at 62.23 36.0824 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3490,7 +3490,7 @@
 			)
 		)
 	)
-	(global_label "Transformer+"
+	(global_label "AC_Sense+"
 		(shape output)
 		(at 72.39 49.53 90)
 		(fields_autoplaced yes)
@@ -3502,7 +3502,7 @@
 		)
 		(uuid "e22915d9-185c-4b7b-b6be-249fdd53d380")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.39 33.6635 90)
+			(at 72.39 36.0824 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
