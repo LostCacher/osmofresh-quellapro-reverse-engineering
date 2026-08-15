@@ -666,7 +666,7 @@
         "uuid": "4260df0e-d900-46a1-97d3-cde6b2933985"
       }
     ],
-    "used_designators": "FUSE1,Q1-10,R1-72,XC1,SW1,RL1,T1-2,#PWR1-27,EC1-2,ZNR1,J1,CN1-28,K1-2,C1-30,D1-9,U1-2,U4-5,P1,P6-8,L1",
+    "used_designators": "FUSE1,Q1-10,R1-72,XC1,SW1,RL1,T1-2,#PWR1-36,EC1-2,ZNR1,J1,CN1-28,K1-2,C1-30,D1-9,U1-2,U4-5,P1,P6-8,L1",
     "variants": []
   },
   "sheets": [

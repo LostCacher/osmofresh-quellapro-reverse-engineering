@@ -18,10 +18,10 @@
 | Connector | Description |
 |-----------|-------------|
 | **CN1** | 24 VDC input (from power supply) [+24Vdc] |
-| **CN2** | Reed switch (2-pin) – Water tank empty detection [+5Vdc] |
+| **CN2** | Reed switch (2-pin) – Water tank empty detection |
 | **CN3** | Water temperature sensor (heater outlet) [+5Vdc] |
 | **CN5** | Water temperature sensor (heater inlet) [+5Vdc] |
-| **CN6** | Internal tank level sensor (2× black wires) |
+| **CN6** | Reed switch (2-pin) – Internal tank level sensor (black HW or NW) |
 | **CN7** | UNUSED |
 | **CN8** | UNUSED [+5Vdc] |
 | **CN9** | TDS sensor (2-pin) |
@@ -29,7 +29,7 @@
 | **CN11** | Display interface (5 V, TX, RX, GND) |
 | **CN12** | Water outlet valve (before heater) [+24Vdc] |
 | **CN13** | UNUSED [+24Vdc] |
-| **CN14** | Internal tank level sensor (2× red wires) [+5Vdc] |
+| **CN14** | Reed switch (2-pin) – Internal tank level sensor (red HW or NW)|
 | **CN16** | UNUSED [+5Vdc] |
 
 ### CN10 Pinout

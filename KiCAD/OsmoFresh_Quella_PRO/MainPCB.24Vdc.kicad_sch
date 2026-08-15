@@ -3231,28 +3231,10 @@
 		(uuid "322f6206-ef84-4093-9f22-f31cee729ccc")
 	)
 	(junction
-		(at 441.96 490.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "08c3a68a-fe95-4ac7-86ca-1fdd82fa0143")
-	)
-	(junction
-		(at 454.66 382.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "09523410-2df2-44c6-91c8-8178499c2633")
-	)
-	(junction
 		(at 441.96 452.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0a60213f-88e7-4ee2-bd39-5997788df4b0")
-	)
-	(junction
-		(at 441.96 382.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0bdd8527-1281-4e27-9a30-2d54cfb6d831")
 	)
 	(junction
 		(at 492.76 287.02)
@@ -3405,18 +3387,6 @@
 		(uuid "ac680cbe-1b23-4bd6-9ff5-a88e97e93514")
 	)
 	(junction
-		(at 505.46 375.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b539e40f-505a-4c49-874e-6d2c1456baa0")
-	)
-	(junction
-		(at 441.96 477.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b7913029-a9ef-4b99-ad4d-ea843f06652d")
-	)
-	(junction
 		(at 416.56 223.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3457,12 +3427,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f17d0492-9102-4bca-87ac-3f9df892533e")
-	)
-	(junction
-		(at 480.06 388.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f58f4e7b-d65f-457e-8165-4bf30f2c4a5b")
 	)
 	(junction
 		(at 563.88 325.12)
@@ -3514,7 +3478,7 @@
 	)
 	(wire
 		(pts
-			(xy 441.96 382.27) (xy 441.96 452.12)
+			(xy 441.96 337.82) (xy 441.96 452.12)
 		)
 		(stroke
 			(width 0)
@@ -3564,7 +3528,7 @@
 	)
 	(wire
 		(pts
-			(xy 441.96 490.22) (xy 441.96 519.43)
+			(xy 441.96 452.12) (xy 441.96 519.43)
 		)
 		(stroke
 			(width 0)
@@ -3641,16 +3605,6 @@
 			(type default)
 		)
 		(uuid "0c3bc1fc-7da6-4d2b-af8e-082896d68d8b")
-	)
-	(wire
-		(pts
-			(xy 441.96 382.27) (xy 454.66 382.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cf1d9d8-45cc-4954-a9f4-9e64214f3c1b")
 	)
 	(wire
 		(pts
@@ -3764,16 +3718,6 @@
 	)
 	(wire
 		(pts
-			(xy 441.96 490.22) (xy 454.66 490.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20c52a28-848a-4d97-bbd8-efa8d642e680")
-	)
-	(wire
-		(pts
 			(xy 515.62 210.82) (xy 516.89 210.82)
 		)
 		(stroke
@@ -3781,16 +3725,6 @@
 			(type default)
 		)
 		(uuid "2285b099-d0b0-4c4f-a927-e450f9c52dbc")
-	)
-	(wire
-		(pts
-			(xy 492.76 401.32) (xy 480.06 401.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "239dd1bb-a00e-46db-9cd2-798c345c3ca4")
 	)
 	(wire
 		(pts
@@ -3811,16 +3745,6 @@
 			(type default)
 		)
 		(uuid "25dfac73-9d01-47b9-986b-ede11677b8fe")
-	)
-	(wire
-		(pts
-			(xy 476.25 375.92) (xy 454.66 375.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "279694ee-fc4a-4902-939f-5fd9b8cb292a")
 	)
 	(wire
 		(pts
@@ -3861,16 +3785,6 @@
 			(type default)
 		)
 		(uuid "2e071c96-0990-47b1-8982-18824a60238a")
-	)
-	(wire
-		(pts
-			(xy 480.06 388.62) (xy 488.95 388.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e0ccc03-ee03-48c0-9fd0-bd3fab8100e2")
 	)
 	(wire
 		(pts
@@ -3974,16 +3888,6 @@
 	)
 	(wire
 		(pts
-			(xy 505.46 375.92) (xy 483.87 375.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d624523-f763-460a-b971-26c820f7c9eb")
-	)
-	(wire
-		(pts
 			(xy 433.07 223.52) (xy 450.85 223.52)
 		)
 		(stroke
@@ -4021,16 +3925,6 @@
 			(type default)
 		)
 		(uuid "3e918c09-d5ff-413c-8a4c-e39116aa4353")
-	)
-	(wire
-		(pts
-			(xy 441.96 452.12) (xy 441.96 477.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4066b175-2051-40a3-b416-bb46bb878b2e")
 	)
 	(wire
 		(pts
@@ -4121,16 +4015,6 @@
 			(type default)
 		)
 		(uuid "4fcdf3ee-d9ec-4c97-940d-0b5edc9caa01")
-	)
-	(wire
-		(pts
-			(xy 505.46 388.62) (xy 496.57 388.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51122ef2-722a-4f75-a6ac-c1ca68847db6")
 	)
 	(wire
 		(pts
@@ -4294,16 +4178,6 @@
 	)
 	(wire
 		(pts
-			(xy 518.16 375.92) (xy 505.46 375.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f45d786-7e1a-4917-9aec-9250d959cf23")
-	)
-	(wire
-		(pts
 			(xy 516.89 223.52) (xy 515.62 223.52)
 		)
 		(stroke
@@ -4354,16 +4228,6 @@
 	)
 	(wire
 		(pts
-			(xy 480.06 401.32) (xy 480.06 388.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7900fe08-5ff4-4beb-86f6-3af9116043fc")
-	)
-	(wire
-		(pts
 			(xy 441.96 189.23) (xy 441.96 203.2)
 		)
 		(stroke
@@ -4411,16 +4275,6 @@
 			(type default)
 		)
 		(uuid "85c312f5-c257-45ce-aed6-9422eee4a880")
-	)
-	(wire
-		(pts
-			(xy 454.66 375.92) (xy 454.66 382.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86701a37-c6f8-4059-a1f8-f1c21a5e78d9")
 	)
 	(wire
 		(pts
@@ -4591,16 +4445,6 @@
 			(type default)
 		)
 		(uuid "9d07c708-c58e-4985-9a2b-6510682de1af")
-	)
-	(wire
-		(pts
-			(xy 471.17 388.62) (xy 480.06 388.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d4f8f54-e78f-42ce-8e54-23b655f56183")
 	)
 	(wire
 		(pts
@@ -4804,16 +4648,6 @@
 	)
 	(wire
 		(pts
-			(xy 441.96 477.52) (xy 454.66 477.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "baf40dca-9532-4674-af9d-c7b18c1e2234")
-	)
-	(wire
-		(pts
 			(xy 458.47 213.36) (xy 478.79 213.36)
 		)
 		(stroke
@@ -4954,16 +4788,6 @@
 	)
 	(wire
 		(pts
-			(xy 441.96 337.82) (xy 441.96 382.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6d3fac9-24d2-450d-8a5f-9d8d8cc71c87")
-	)
-	(wire
-		(pts
 			(xy 505.46 294.64) (xy 505.46 306.07)
 		)
 		(stroke
@@ -4991,16 +4815,6 @@
 			(type default)
 		)
 		(uuid "deeb0fea-1ffb-4229-970e-718a4958af66")
-	)
-	(wire
-		(pts
-			(xy 441.96 477.52) (xy 441.96 490.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e362594f-704c-4281-90dd-c7ec748b7251")
 	)
 	(wire
 		(pts
@@ -5044,16 +4858,6 @@
 	)
 	(wire
 		(pts
-			(xy 454.66 388.62) (xy 463.55 388.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea1193ec-d958-4a70-a784-4be538f85e21")
-	)
-	(wire
-		(pts
 			(xy 478.79 213.36) (xy 495.3 213.36)
 		)
 		(stroke
@@ -5061,16 +4865,6 @@
 			(type default)
 		)
 		(uuid "ec9c6a59-bad2-461d-b350-34a6fe80d323")
-	)
-	(wire
-		(pts
-			(xy 454.66 382.27) (xy 454.66 388.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ecef1c86-a408-4176-af23-c0d2335c5128")
 	)
 	(wire
 		(pts
@@ -5162,16 +4956,6 @@
 		)
 		(uuid "fb027369-f545-47a1-89f0-43e3ca84cf41")
 	)
-	(wire
-		(pts
-			(xy 505.46 375.92) (xy 505.46 388.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdaa6c4e-568f-4f9c-a0dc-4b39bd115cde")
-	)
 	(global_label "Water_Pump+"
 		(shape input)
 		(at 297.18 544.83 0)
@@ -5257,30 +5041,6 @@
 		(uuid "331ffe31-c6f8-4827-82dc-922d39f312f5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 316.456 532.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "Temperature_Outlet+"
-		(shape input)
-		(at 518.16 375.92 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3acd3952-7005-488c-af4c-e031a492c31b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 541.0417 375.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5436,30 +5196,6 @@
 			)
 		)
 	)
-	(global_label "UNUSED_CN16+"
-		(shape input)
-		(at 530.86 515.62 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "734ec766-522a-41df-8df0-1fe9da20d52f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 549.0247 515.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "Relay_Heater_Coil-"
 		(shape output)
 		(at 543.56 439.42 0)
@@ -5505,30 +5241,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "Internal_Tank_Level_Black-"
-		(shape output)
-		(at 454.66 477.52 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8eb64484-758d-4031-bccc-a877624a6e1f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 483.7706 477.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -5617,54 +5329,6 @@
 		(uuid "adedb0fc-b1ec-409c-a75f-aba83bf70709")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 537.5947 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "IC1_Pin10"
-		(shape output)
-		(at 492.76 401.32 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b3b2ad7e-f0ca-4054-aa9f-eead51a7600f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 505.2399 401.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "Internal_Tank_Level_Red-"
-		(shape output)
-		(at 454.66 490.22 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b75737fa-bc82-4d89-bfb2-2b4e76c7289d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 482.0773 490.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6572,261 +6236,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 194.31 88.9 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3262562a-37f9-4cba-8c83-01b57e13c1cc")
-		(property "Reference" "R14"
-			(at 194.31 83.82 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1kΩ"
-			(at 194.31 86.36 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.31 90.678 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 194.31 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3c5c5eaa-9631-47b9-8cd7-e78b6d645bba")
-		)
-		(pin "2"
-			(uuid "e77bb0f1-6ec5-4032-8ca6-0228338b3827")
-		)
-		(instances
-			(project "OsmoFresh_Quella_PRO"
-				(path "/4260df0e-d900-46a1-97d3-cde6b2933985/00785b84-3607-4d80-92ae-17ec4beff254"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-			(project "MainPCB.Secondary"
-				(path "/a1f5dfe7-a8fc-469d-9725-b00c7d3dab31/6af90889-79b5-40cd-af23-9c86fdcae070"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 194.31 76.2 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "381431c1-6cc7-4da3-9e10-c9239dcf3ee1")
-		(property "Reference" "R66"
-			(at 194.31 71.12 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2kΩ"
-			(at 194.31 73.66 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.31 77.978 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 194.31 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ba5bee8e-c8b4-4a23-9b11-63dba6726464")
-		)
-		(pin "2"
-			(uuid "4d252d90-1f58-4091-9ec5-0065ca3f4a48")
-		)
-		(instances
-			(project "OsmoFresh_Quella_PRO"
-				(path "/4260df0e-d900-46a1-97d3-cde6b2933985/00785b84-3607-4d80-92ae-17ec4beff254"
-					(reference "R66")
-					(unit 1)
-				)
-			)
-			(project "MainPCB.Secondary"
-				(path "/a1f5dfe7-a8fc-469d-9725-b00c7d3dab31/6af90889-79b5-40cd-af23-9c86fdcae070"
-					(reference "R66")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 207.01 76.2 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3a93d545-e833-4ea2-9bec-18cbde3cd13f")
-		(property "Reference" "R21"
-			(at 207.01 71.12 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1kΩ"
-			(at 207.01 73.66 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 207.01 77.978 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 207.01 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 207.01 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "37f0a0bc-b798-44f5-a4a5-a5e3e7651b07")
-		)
-		(pin "2"
-			(uuid "ad7905ed-680e-4237-8971-1dd3702d0932")
-		)
-		(instances
-			(project "OsmoFresh_Quella_PRO"
-				(path "/4260df0e-d900-46a1-97d3-cde6b2933985/00785b84-3607-4d80-92ae-17ec4beff254"
-					(reference "R21")
-					(unit 1)
-				)
-			)
-			(project "MainPCB.Secondary"
-				(path "/a1f5dfe7-a8fc-469d-9725-b00c7d3dab31/6af90889-79b5-40cd-af23-9c86fdcae070"
-					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D")
 		(at 518.16 299.72 270)
 		(unit 1)
@@ -7459,91 +6868,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 181.61 88.9 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "478b2853-4e15-4f54-b165-941a5e7b0613")
-		(property "Reference" "R11"
-			(at 181.61 83.82 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10kΩ"
-			(at 181.61 86.36 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.61 90.678 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 181.61 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "358b435c-8302-4ac5-8a48-85b0280e4698")
-		)
-		(pin "2"
-			(uuid "c0f113a7-0a4f-4c26-956c-ba85c4f5e92b")
-		)
-		(instances
-			(project "OsmoFresh_Quella_PRO"
-				(path "/4260df0e-d900-46a1-97d3-cde6b2933985/00785b84-3607-4d80-92ae-17ec4beff254"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-			(project "MainPCB.Secondary"
-				(path "/a1f5dfe7-a8fc-469d-9725-b00c7d3dab31/6af90889-79b5-40cd-af23-9c86fdcae070"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Simulation_SPICE:NPN")
 		(at 480.06 322.58 270)
 		(unit 1)
@@ -7746,91 +7070,6 @@
 			(project "MainPCB.Secondary"
 				(path "/a1f5dfe7-a8fc-469d-9725-b00c7d3dab31/6af90889-79b5-40cd-af23-9c86fdcae070"
 					(reference "R64")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 168.91 76.2 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4c91ea16-b0fa-4ab8-ba3f-2038c90e7a5f")
-		(property "Reference" "R68"
-			(at 168.91 71.12 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10kΩ"
-			(at 168.91 73.66 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 168.91 77.978 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 168.91 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1fbbde7e-c5d4-427a-b816-b4dd46b775b7")
-		)
-		(pin "2"
-			(uuid "40746c10-e61b-4678-8c46-9fd6657eb6be")
-		)
-		(instances
-			(project "OsmoFresh_Quella_PRO"
-				(path "/4260df0e-d900-46a1-97d3-cde6b2933985/00785b84-3607-4d80-92ae-17ec4beff254"
-					(reference "R68")
-					(unit 1)
-				)
-			)
-			(project "MainPCB.Secondary"
-				(path "/a1f5dfe7-a8fc-469d-9725-b00c7d3dab31/6af90889-79b5-40cd-af23-9c86fdcae070"
-					(reference "R68")
 					(unit 1)
 				)
 			)
@@ -8704,92 +7943,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 228.6 72.39 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6eaf15a4-ea6e-462c-b738-4fa2366b074c")
-		(property "Reference" "C25"
-			(at 233.172 72.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "unkown"
-			(at 225.044 72.39 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 227.6348 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 228.6 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "64e9d344-63c6-4e78-a3d9-da2a80564c3e")
-		)
-		(pin "1"
-			(uuid "ca0ecdf2-7bd3-49d8-a52c-6eeb80a03f64")
-		)
-		(instances
-			(project "OsmoFresh_Quella_PRO"
-				(path "/4260df0e-d900-46a1-97d3-cde6b2933985/00785b84-3607-4d80-92ae-17ec4beff254"
-					(reference "C25")
-					(unit 1)
-				)
-			)
-			(project "MainPCB.Secondary"
-				(path "/a1f5dfe7-a8fc-469d-9725-b00c7d3dab31/6af90889-79b5-40cd-af23-9c86fdcae070"
-					(reference "C25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 382.27 556.26 90)
 		(unit 1)
@@ -8954,177 +8107,6 @@
 			(project "MainPCB.Secondary"
 				(path "/a1f5dfe7-a8fc-469d-9725-b00c7d3dab31/6af90889-79b5-40cd-af23-9c86fdcae070"
 					(reference "R34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 228.6 85.09 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "77bcddfc-0ff3-4eb4-85bc-fee715499ecd")
-		(property "Reference" "C5"
-			(at 233.172 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "unkown"
-			(at 225.044 85.09 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 227.6348 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 228.6 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1c8bfd22-ecf0-4823-bde3-4446add40ceb")
-		)
-		(pin "1"
-			(uuid "2125f655-4570-4f39-b107-89ecc41c74c9")
-		)
-		(instances
-			(project "OsmoFresh_Quella_PRO"
-				(path "/4260df0e-d900-46a1-97d3-cde6b2933985/00785b84-3607-4d80-92ae-17ec4beff254"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-			(project "MainPCB.Secondary"
-				(path "/a1f5dfe7-a8fc-469d-9725-b00c7d3dab31/6af90889-79b5-40cd-af23-9c86fdcae070"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 207.01 88.9 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "89273c21-bb2b-4cad-a978-ee3c195994b8")
-		(property "Reference" "R16"
-			(at 207.01 83.82 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1kΩ"
-			(at 207.01 86.36 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 207.01 90.678 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 207.01 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 207.01 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8ad8cb10-a899-490b-baec-7cd0b3ab7f48")
-		)
-		(pin "2"
-			(uuid "0d58ceeb-fcf8-46c3-b177-9c9e9d465a5c")
-		)
-		(instances
-			(project "OsmoFresh_Quella_PRO"
-				(path "/4260df0e-d900-46a1-97d3-cde6b2933985/00785b84-3607-4d80-92ae-17ec4beff254"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-			(project "MainPCB.Secondary"
-				(path "/a1f5dfe7-a8fc-469d-9725-b00c7d3dab31/6af90889-79b5-40cd-af23-9c86fdcae070"
-					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -9326,265 +8308,6 @@
 			(project "MainPCB.Secondary"
 				(path "/a1f5dfe7-a8fc-469d-9725-b00c7d3dab31/6af90889-79b5-40cd-af23-9c86fdcae070"
 					(reference "K2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 181.61 76.2 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "925595d5-10f8-452a-a13c-acf0edfd25b0")
-		(property "Reference" "R67"
-			(at 181.61 71.12 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10kΩ"
-			(at 181.61 73.66 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.61 77.978 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 181.61 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8acc3eb3-c1eb-4ded-b628-dd10fc9cf1e4")
-		)
-		(pin "2"
-			(uuid "8ef51e93-4b12-4b4e-92e6-54d6ebc01927")
-		)
-		(instances
-			(project "OsmoFresh_Quella_PRO"
-				(path "/4260df0e-d900-46a1-97d3-cde6b2933985/00785b84-3607-4d80-92ae-17ec4beff254"
-					(reference "R67")
-					(unit 1)
-				)
-			)
-			(project "MainPCB.Secondary"
-				(path "/a1f5dfe7-a8fc-469d-9725-b00c7d3dab31/6af90889-79b5-40cd-af23-9c86fdcae070"
-					(reference "R67")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 492.76 388.62 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "975794ce-452e-4f58-ac91-4e74efc485f2")
-		(property "Reference" "R5"
-			(at 491.236 384.048 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2kΩ"
-			(at 490.728 386.334 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 492.76 386.842 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 492.76 388.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 492.76 388.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b856ce58-0aa7-43e5-9a57-1bfd52550cca")
-		)
-		(pin "1"
-			(uuid "3ced6c9d-038e-450f-9e3c-cf9074a19899")
-		)
-		(instances
-			(project "OsmoFresh_Quella_PRO"
-				(path "/4260df0e-d900-46a1-97d3-cde6b2933985/00785b84-3607-4d80-92ae-17ec4beff254"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-			(project "MainPCB.Secondary"
-				(path "/a1f5dfe7-a8fc-469d-9725-b00c7d3dab31/6af90889-79b5-40cd-af23-9c86fdcae070"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 480.06 375.92 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9b18f74e-5159-4018-bc2a-39212e8cf2b4")
-		(property "Reference" "R6"
-			(at 478.536 371.094 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10kΩ"
-			(at 477.52 373.6339 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 480.06 374.142 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 480.06 375.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 480.06 375.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c6cedd38-4452-49fa-8301-19de47eed875")
-		)
-		(pin "1"
-			(uuid "61412032-725d-4731-9c13-76aea262537c")
-		)
-		(instances
-			(project "OsmoFresh_Quella_PRO"
-				(path "/4260df0e-d900-46a1-97d3-cde6b2933985/00785b84-3607-4d80-92ae-17ec4beff254"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-			(project "MainPCB.Secondary"
-				(path "/a1f5dfe7-a8fc-469d-9725-b00c7d3dab31/6af90889-79b5-40cd-af23-9c86fdcae070"
-					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -9928,91 +8651,6 @@
 			(project "MainPCB.Secondary"
 				(path "/a1f5dfe7-a8fc-469d-9725-b00c7d3dab31/6af90889-79b5-40cd-af23-9c86fdcae070"
 					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 168.91 88.9 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bbd5b57c-699e-492a-b9dd-be7877194d10")
-		(property "Reference" "R10"
-			(at 168.91 83.82 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2kΩ"
-			(at 168.91 86.36 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 168.91 90.678 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 168.91 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f36a2797-81ea-4bd6-8123-efac80f8ba15")
-		)
-		(pin "2"
-			(uuid "140f6bd2-7680-4eee-892a-ca2f22740d47")
-		)
-		(instances
-			(project "OsmoFresh_Quella_PRO"
-				(path "/4260df0e-d900-46a1-97d3-cde6b2933985/00785b84-3607-4d80-92ae-17ec4beff254"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-			(project "MainPCB.Secondary"
-				(path "/a1f5dfe7-a8fc-469d-9725-b00c7d3dab31/6af90889-79b5-40cd-af23-9c86fdcae070"
-					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -11104,92 +9742,6 @@
 			(project "MainPCB.Secondary"
 				(path "/a1f5dfe7-a8fc-469d-9725-b00c7d3dab31/6af90889-79b5-40cd-af23-9c86fdcae070"
 					(reference "R62")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 467.36 388.62 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f0b6774b-5502-4b5a-886e-330470cadde2")
-		(property "Reference" "C4"
-			(at 467.36 385.318 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "unkown"
-			(at 467.36 385.064 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 471.17 387.6548 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 467.36 388.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 467.36 388.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "109e42fe-8a00-4b5a-9319-21534e3c6a07")
-		)
-		(pin "1"
-			(uuid "6718f383-8db3-4e0f-a1ac-967de50c948a")
-		)
-		(instances
-			(project "OsmoFresh_Quella_PRO"
-				(path "/4260df0e-d900-46a1-97d3-cde6b2933985/00785b84-3607-4d80-92ae-17ec4beff254"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-			(project "MainPCB.Secondary"
-				(path "/a1f5dfe7-a8fc-469d-9725-b00c7d3dab31/6af90889-79b5-40cd-af23-9c86fdcae070"
-					(reference "C4")
 					(unit 1)
 				)
 			)
