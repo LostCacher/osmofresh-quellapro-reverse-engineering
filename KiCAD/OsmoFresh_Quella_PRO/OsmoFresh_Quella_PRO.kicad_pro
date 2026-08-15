@@ -663,10 +663,10 @@
       {
         "filename": "mainpcb.secondary.kicad_sch",
         "name": "MainPCB.Secondary",
-        "uuid": "085f93a2-5d2b-46a2-ac0d-b864eaf3f9e9"
+        "uuid": "4260df0e-d900-46a1-97d3-cde6b2933985"
       }
     ],
-    "used_designators": "C1-30,L1,P1,P6-8,R1-2,R4-8,R10-47,R49-72,Q1-10,FUSE1,U1-2,U4-5,D1,D4-9,XC1,#PWR1-18,T1-2,RL1,SW1,ZNR1,EC1-2,K1-2,CN1-28,J1",
+    "used_designators": "FUSE1,Q1-10,R1-72,XC1,SW1,RL1,T1-2,#PWR1-18,EC1-2,ZNR1,J1,CN1-28,K1-2,C1-30,D1-9,U1-2,U4-5,P1,P6-8,L1",
     "variants": []
   },
   "sheets": [
@@ -675,19 +675,19 @@
       "MainPCB.Primary"
     ],
     [
-      "085f93a2-5d2b-46a2-ac0d-b864eaf3f9e9",
+      "4260df0e-d900-46a1-97d3-cde6b2933985",
       "MainPCB.Secondary"
     ],
     [
-      "6af90889-79b5-40cd-af23-9c86fdcae070",
+      "00785b84-3607-4d80-92ae-17ec4beff254",
       "+24Vdc"
     ],
     [
-      "504fb176-c22e-45b7-be64-fba2f8164026",
+      "e56ab9bc-d891-4c79-8dcd-46998557321d",
       "+5Vdc"
     ],
     [
-      "2b9333e9-34a2-4912-b9d7-bd9dc2d53cb4",
+      "5831b081-567a-432f-93b3-923d499e1c08",
       "MCU"
     ]
   ],

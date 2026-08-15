@@ -3180,7 +3180,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1de17326-b0f7-42d4-9fa3-98ba3513aee0")
-		(property "Reference" "C30"
+		(property "Reference" "C24"
 			(at 149.352 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3247,6 +3247,18 @@
 					(unit 1)
 				)
 			)
+			(project "OsmoFresh_Quella_PRO"
+				(path "/4260df0e-d900-46a1-97d3-cde6b2933985/5831b081-567a-432f-93b3-923d499e1c08"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+			(project "MainPCB.Secondary"
+				(path "/a1f5dfe7-a8fc-469d-9725-b00c7d3dab31/2b9333e9-34a2-4912-b9d7-bd9dc2d53cb4"
+					(reference "C30")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3260,7 +3272,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2fd2d2ab-58f4-4f95-955a-04682da6b448")
-		(property "Reference" "CN7"
+		(property "Reference" "CN12"
 			(at 64.008 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3327,6 +3339,18 @@
 					(unit 1)
 				)
 			)
+			(project "OsmoFresh_Quella_PRO"
+				(path "/4260df0e-d900-46a1-97d3-cde6b2933985/5831b081-567a-432f-93b3-923d499e1c08"
+					(reference "CN12")
+					(unit 1)
+				)
+			)
+			(project "MainPCB.Secondary"
+				(path "/a1f5dfe7-a8fc-469d-9725-b00c7d3dab31/2b9333e9-34a2-4912-b9d7-bd9dc2d53cb4"
+					(reference "CN7")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3340,7 +3364,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "367cf727-e3dc-4ea6-81ef-05cfc1462155")
-		(property "Reference" "C14"
+		(property "Reference" "C27"
 			(at 220.472 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3407,6 +3431,18 @@
 					(unit 1)
 				)
 			)
+			(project "OsmoFresh_Quella_PRO"
+				(path "/4260df0e-d900-46a1-97d3-cde6b2933985/5831b081-567a-432f-93b3-923d499e1c08"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+			(project "MainPCB.Secondary"
+				(path "/a1f5dfe7-a8fc-469d-9725-b00c7d3dab31/2b9333e9-34a2-4912-b9d7-bd9dc2d53cb4"
+					(reference "C14")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3421,7 +3457,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "39b49807-c2ca-4766-8a7d-c0b9378857fd")
-		(property "Reference" "R38"
+		(property "Reference" "R49"
 			(at 132.08 86.614 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3487,6 +3523,18 @@
 					(unit 1)
 				)
 			)
+			(project "OsmoFresh_Quella_PRO"
+				(path "/4260df0e-d900-46a1-97d3-cde6b2933985/5831b081-567a-432f-93b3-923d499e1c08"
+					(reference "R49")
+					(unit 1)
+				)
+			)
+			(project "MainPCB.Secondary"
+				(path "/a1f5dfe7-a8fc-469d-9725-b00c7d3dab31/2b9333e9-34a2-4912-b9d7-bd9dc2d53cb4"
+					(reference "R38")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3500,7 +3548,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3e958d9c-1e3a-4f6c-abfe-1bcf9b0c258c")
-		(property "Reference" "R12"
+		(property "Reference" "R52"
 			(at 135.89 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3562,6 +3610,18 @@
 		(instances
 			(project "OsmoFresh_Quella_PRO"
 				(path "/085f93a2-5d2b-46a2-ac0d-b864eaf3f9e9/2b9333e9-34a2-4912-b9d7-bd9dc2d53cb4"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+			(project "OsmoFresh_Quella_PRO"
+				(path "/4260df0e-d900-46a1-97d3-cde6b2933985/5831b081-567a-432f-93b3-923d499e1c08"
+					(reference "R52")
+					(unit 1)
+				)
+			)
+			(project "MainPCB.Secondary"
+				(path "/a1f5dfe7-a8fc-469d-9725-b00c7d3dab31/2b9333e9-34a2-4912-b9d7-bd9dc2d53cb4"
 					(reference "R12")
 					(unit 1)
 				)
@@ -3644,6 +3704,18 @@
 					(unit 1)
 				)
 			)
+			(project "OsmoFresh_Quella_PRO"
+				(path "/4260df0e-d900-46a1-97d3-cde6b2933985/5831b081-567a-432f-93b3-923d499e1c08"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+			(project "MainPCB.Secondary"
+				(path "/a1f5dfe7-a8fc-469d-9725-b00c7d3dab31/2b9333e9-34a2-4912-b9d7-bd9dc2d53cb4"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3657,7 +3729,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6b95276a-f92d-475a-83da-a75c97f5f9fe")
-		(property "Reference" "C2"
+		(property "Reference" "C25"
 			(at 195.072 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3724,6 +3796,18 @@
 					(unit 1)
 				)
 			)
+			(project "OsmoFresh_Quella_PRO"
+				(path "/4260df0e-d900-46a1-97d3-cde6b2933985/5831b081-567a-432f-93b3-923d499e1c08"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+			(project "MainPCB.Secondary"
+				(path "/a1f5dfe7-a8fc-469d-9725-b00c7d3dab31/2b9333e9-34a2-4912-b9d7-bd9dc2d53cb4"
+					(reference "C2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3737,7 +3821,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6cc0ab82-1292-4610-b028-f3ea5667b1fd")
-		(property "Reference" "R57"
+		(property "Reference" "R51"
 			(at 132.08 113.284 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3803,6 +3887,18 @@
 					(unit 1)
 				)
 			)
+			(project "OsmoFresh_Quella_PRO"
+				(path "/4260df0e-d900-46a1-97d3-cde6b2933985/5831b081-567a-432f-93b3-923d499e1c08"
+					(reference "R51")
+					(unit 1)
+				)
+			)
+			(project "MainPCB.Secondary"
+				(path "/a1f5dfe7-a8fc-469d-9725-b00c7d3dab31/2b9333e9-34a2-4912-b9d7-bd9dc2d53cb4"
+					(reference "R57")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3816,7 +3912,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6dc6d47f-3202-4ea7-b487-2e487ab521d9")
-		(property "Reference" "R56"
+		(property "Reference" "R50"
 			(at 132.08 105.918 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3882,6 +3978,18 @@
 					(unit 1)
 				)
 			)
+			(project "OsmoFresh_Quella_PRO"
+				(path "/4260df0e-d900-46a1-97d3-cde6b2933985/5831b081-567a-432f-93b3-923d499e1c08"
+					(reference "R50")
+					(unit 1)
+				)
+			)
+			(project "MainPCB.Secondary"
+				(path "/a1f5dfe7-a8fc-469d-9725-b00c7d3dab31/2b9333e9-34a2-4912-b9d7-bd9dc2d53cb4"
+					(reference "R56")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3895,7 +4003,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7d60d850-0e2b-4c6d-aa77-e2dce3a6f0e6")
-		(property "Reference" "R46"
+		(property "Reference" "R54"
 			(at 177.8 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3961,6 +4069,18 @@
 					(unit 1)
 				)
 			)
+			(project "OsmoFresh_Quella_PRO"
+				(path "/4260df0e-d900-46a1-97d3-cde6b2933985/5831b081-567a-432f-93b3-923d499e1c08"
+					(reference "R54")
+					(unit 1)
+				)
+			)
+			(project "MainPCB.Secondary"
+				(path "/a1f5dfe7-a8fc-469d-9725-b00c7d3dab31/2b9333e9-34a2-4912-b9d7-bd9dc2d53cb4"
+					(reference "R46")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3974,7 +4094,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8433f621-13a7-4e50-85e1-ce181724709a")
-		(property "Reference" "C17"
+		(property "Reference" "C26"
 			(at 207.772 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4041,6 +4161,18 @@
 					(unit 1)
 				)
 			)
+			(project "OsmoFresh_Quella_PRO"
+				(path "/4260df0e-d900-46a1-97d3-cde6b2933985/5831b081-567a-432f-93b3-923d499e1c08"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+			(project "MainPCB.Secondary"
+				(path "/a1f5dfe7-a8fc-469d-9725-b00c7d3dab31/2b9333e9-34a2-4912-b9d7-bd9dc2d53cb4"
+					(reference "C17")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4054,7 +4186,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "94a49e3e-ac09-40bb-bd38-963beac285b2")
-		(property "Reference" "R13"
+		(property "Reference" "R48"
 			(at 127 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4120,6 +4252,18 @@
 					(unit 1)
 				)
 			)
+			(project "OsmoFresh_Quella_PRO"
+				(path "/4260df0e-d900-46a1-97d3-cde6b2933985/5831b081-567a-432f-93b3-923d499e1c08"
+					(reference "R48")
+					(unit 1)
+				)
+			)
+			(project "MainPCB.Secondary"
+				(path "/a1f5dfe7-a8fc-469d-9725-b00c7d3dab31/2b9333e9-34a2-4912-b9d7-bd9dc2d53cb4"
+					(reference "R13")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4133,7 +4277,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "977a35d1-60e7-4bfd-9c7e-ba62511bbebe")
-		(property "Reference" "R8"
+		(property "Reference" "R53"
 			(at 139.7 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4199,6 +4343,18 @@
 					(unit 1)
 				)
 			)
+			(project "OsmoFresh_Quella_PRO"
+				(path "/4260df0e-d900-46a1-97d3-cde6b2933985/5831b081-567a-432f-93b3-923d499e1c08"
+					(reference "R53")
+					(unit 1)
+				)
+			)
+			(project "MainPCB.Secondary"
+				(path "/a1f5dfe7-a8fc-469d-9725-b00c7d3dab31/2b9333e9-34a2-4912-b9d7-bd9dc2d53cb4"
+					(reference "R8")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4212,7 +4368,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a8cee97e-ce46-4332-8045-47f4bbb372d8")
-		(property "Reference" "C29"
+		(property "Reference" "C23"
 			(at 140.97 81.534 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4275,6 +4431,18 @@
 		(instances
 			(project "OsmoFresh_Quella_PRO"
 				(path "/085f93a2-5d2b-46a2-ac0d-b864eaf3f9e9/2b9333e9-34a2-4912-b9d7-bd9dc2d53cb4"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+			(project "OsmoFresh_Quella_PRO"
+				(path "/4260df0e-d900-46a1-97d3-cde6b2933985/5831b081-567a-432f-93b3-923d499e1c08"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+			(project "MainPCB.Secondary"
+				(path "/a1f5dfe7-a8fc-469d-9725-b00c7d3dab31/2b9333e9-34a2-4912-b9d7-bd9dc2d53cb4"
 					(reference "C29")
 					(unit 1)
 				)
@@ -4357,6 +4525,18 @@
 					(unit 1)
 				)
 			)
+			(project "OsmoFresh_Quella_PRO"
+				(path "/4260df0e-d900-46a1-97d3-cde6b2933985/5831b081-567a-432f-93b3-923d499e1c08"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+			(project "MainPCB.Secondary"
+				(path "/a1f5dfe7-a8fc-469d-9725-b00c7d3dab31/2b9333e9-34a2-4912-b9d7-bd9dc2d53cb4"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4370,7 +4550,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bd03c7bb-2696-43fe-970e-6a71240f4ab5")
-		(property "Reference" "R69"
+		(property "Reference" "R47"
 			(at 86.36 123.19 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4436,6 +4616,18 @@
 					(unit 1)
 				)
 			)
+			(project "OsmoFresh_Quella_PRO"
+				(path "/4260df0e-d900-46a1-97d3-cde6b2933985/5831b081-567a-432f-93b3-923d499e1c08"
+					(reference "R47")
+					(unit 1)
+				)
+			)
+			(project "MainPCB.Secondary"
+				(path "/a1f5dfe7-a8fc-469d-9725-b00c7d3dab31/2b9333e9-34a2-4912-b9d7-bd9dc2d53cb4"
+					(reference "R69")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4449,7 +4641,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cb3c6e2d-01f8-407b-81d9-7f8ae8af4c86")
-		(property "Reference" "CN6"
+		(property "Reference" "CN11"
 			(at 55.118 187.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4516,6 +4708,18 @@
 					(unit 1)
 				)
 			)
+			(project "OsmoFresh_Quella_PRO"
+				(path "/4260df0e-d900-46a1-97d3-cde6b2933985/5831b081-567a-432f-93b3-923d499e1c08"
+					(reference "CN11")
+					(unit 1)
+				)
+			)
+			(project "MainPCB.Secondary"
+				(path "/a1f5dfe7-a8fc-469d-9725-b00c7d3dab31/2b9333e9-34a2-4912-b9d7-bd9dc2d53cb4"
+					(reference "CN6")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4529,7 +4733,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d2f5a745-883a-4542-8a5a-ff1502acca84")
-		(property "Reference" "CN11"
+		(property "Reference" "CN13"
 			(at 68.326 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4602,6 +4806,18 @@
 					(unit 1)
 				)
 			)
+			(project "OsmoFresh_Quella_PRO"
+				(path "/4260df0e-d900-46a1-97d3-cde6b2933985/5831b081-567a-432f-93b3-923d499e1c08"
+					(reference "CN13")
+					(unit 1)
+				)
+			)
+			(project "MainPCB.Secondary"
+				(path "/a1f5dfe7-a8fc-469d-9725-b00c7d3dab31/2b9333e9-34a2-4912-b9d7-bd9dc2d53cb4"
+					(reference "CN11")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4616,7 +4832,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d7dc53e3-97ff-499a-9bbd-aa527798ab4a")
-		(property "Reference" "C28"
+		(property "Reference" "C22"
 			(at 132.588 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4679,6 +4895,18 @@
 		(instances
 			(project "OsmoFresh_Quella_PRO"
 				(path "/085f93a2-5d2b-46a2-ac0d-b864eaf3f9e9/2b9333e9-34a2-4912-b9d7-bd9dc2d53cb4"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+			(project "OsmoFresh_Quella_PRO"
+				(path "/4260df0e-d900-46a1-97d3-cde6b2933985/5831b081-567a-432f-93b3-923d499e1c08"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+			(project "MainPCB.Secondary"
+				(path "/a1f5dfe7-a8fc-469d-9725-b00c7d3dab31/2b9333e9-34a2-4912-b9d7-bd9dc2d53cb4"
 					(reference "C28")
 					(unit 1)
 				)
@@ -4762,6 +4990,18 @@
 					(unit 1)
 				)
 			)
+			(project "OsmoFresh_Quella_PRO"
+				(path "/4260df0e-d900-46a1-97d3-cde6b2933985/5831b081-567a-432f-93b3-923d499e1c08"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+			(project "MainPCB.Secondary"
+				(path "/a1f5dfe7-a8fc-469d-9725-b00c7d3dab31/2b9333e9-34a2-4912-b9d7-bd9dc2d53cb4"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4840,6 +5080,18 @@
 					(unit 1)
 				)
 			)
+			(project "OsmoFresh_Quella_PRO"
+				(path "/4260df0e-d900-46a1-97d3-cde6b2933985/5831b081-567a-432f-93b3-923d499e1c08"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+			(project "MainPCB.Secondary"
+				(path "/a1f5dfe7-a8fc-469d-9725-b00c7d3dab31/2b9333e9-34a2-4912-b9d7-bd9dc2d53cb4"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4853,7 +5105,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fc4b86a7-8215-408e-a940-b1d36365214e")
-		(property "Reference" "CN9"
+		(property "Reference" "CN14"
 			(at 69.088 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4916,6 +5168,18 @@
 		(instances
 			(project "OsmoFresh_Quella_PRO"
 				(path "/085f93a2-5d2b-46a2-ac0d-b864eaf3f9e9/2b9333e9-34a2-4912-b9d7-bd9dc2d53cb4"
+					(reference "CN9")
+					(unit 1)
+				)
+			)
+			(project "OsmoFresh_Quella_PRO"
+				(path "/4260df0e-d900-46a1-97d3-cde6b2933985/5831b081-567a-432f-93b3-923d499e1c08"
+					(reference "CN14")
+					(unit 1)
+				)
+			)
+			(project "MainPCB.Secondary"
+				(path "/a1f5dfe7-a8fc-469d-9725-b00c7d3dab31/2b9333e9-34a2-4912-b9d7-bd9dc2d53cb4"
 					(reference "CN9")
 					(unit 1)
 				)

@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "a1f5dfe7-a8fc-469d-9725-b00c7d3dab31")
+	(uuid "5b3fbb7a-422d-4a2e-b423-f7733ae4974a")
 	(paper "A4")
 	(title_block
 		(title "MainPCB Secondary")
@@ -11,98 +11,6 @@
 		(company "LostCacher")
 	)
 	(lib_symbols)
-	(sheet
-		(at 38.1 114.3)
-		(size 38.1 25.4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "2b9333e9-34a2-4912-b9d7-bd9dc2d53cb4")
-		(property "Sheetname" "MCU"
-			(at 38.1 113.5884 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "MainPCB.MCU.kicad_sch"
-			(at 38.1 140.2846 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "OsmoFresh_Quella_PRO"
-				(path "/085f93a2-5d2b-46a2-ac0d-b864eaf3f9e9"
-					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 38.1 77.47)
-		(size 38.1 25.4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "504fb176-c22e-45b7-be64-fba2f8164026")
-		(property "Sheetname" "+5Vdc"
-			(at 38.1 76.7584 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "MainPCB.5Vdc.kicad_sch"
-			(at 38.1 103.4546 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "OsmoFresh_Quella_PRO"
-				(path "/085f93a2-5d2b-46a2-ac0d-b864eaf3f9e9"
-					(page "4")
-				)
-			)
-		)
-	)
 	(sheet
 		(at 38.1 38.1)
 		(size 38.1 25.4)
@@ -118,7 +26,7 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "6af90889-79b5-40cd-af23-9c86fdcae070")
+		(uuid "00785b84-3607-4d80-92ae-17ec4beff254")
 		(property "Sheetname" "+24Vdc"
 			(at 38.1 37.3884 0)
 			(show_name no)
@@ -130,7 +38,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "MainPCB.+24Vdc.kicad_sch"
+		(property "Sheetfile" "MainPCB.24Vdc.kicad_sch"
 			(at 38.1 64.0846 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -143,8 +51,100 @@
 		)
 		(instances
 			(project "OsmoFresh_Quella_PRO"
-				(path "/085f93a2-5d2b-46a2-ac0d-b864eaf3f9e9"
+				(path "/4260df0e-d900-46a1-97d3-cde6b2933985"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 38.1)
+		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5831b081-567a-432f-93b3-923d499e1c08")
+		(property "Sheetname" "MCU"
+			(at 139.7 37.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MainPCB.MCU.kicad_sch"
+			(at 139.7 64.0846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "OsmoFresh_Quella_PRO"
+				(path "/4260df0e-d900-46a1-97d3-cde6b2933985"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 38.1)
+		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e56ab9bc-d891-4c79-8dcd-46998557321d")
+		(property "Sheetname" "+5Vdc"
+			(at 88.9 37.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MainPCB.5Vdc.kicad_sch"
+			(at 88.9 64.0846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "OsmoFresh_Quella_PRO"
+				(path "/4260df0e-d900-46a1-97d3-cde6b2933985"
+					(page "4")
 				)
 			)
 		)
