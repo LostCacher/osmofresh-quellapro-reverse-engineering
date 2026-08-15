@@ -149,52 +149,6 @@
 			)
 		)
 	)
-	(sheet
-		(at 38.1 152.4)
-		(size 38.1 25.4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "84030238-77a7-48ae-81d4-b10405b02eda")
-		(property "Sheetname" "Connectors"
-			(at 38.1 151.6884 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "MainPCB.Connectors.kicad_sch"
-			(at 38.1 178.3846 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "OsmoFresh_Quella_PRO"
-				(path "/085f93a2-5d2b-46a2-ac0d-b864eaf3f9e9"
-					(page "6")
-				)
-			)
-		)
-	)
 	(sheet_instances
 		(path "/"
 			(page "2")
