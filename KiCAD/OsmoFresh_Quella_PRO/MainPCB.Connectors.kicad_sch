@@ -5,8 +5,8 @@
 	(uuid "aebea500-f9c1-4cf1-8f45-51d6fe1baa7c")
 	(paper "A4")
 	(title_block
-		(title "MainPCB Secondary Connectors")
-		(date "2026-08-14")
+		(title "MainPCB Connectors")
+		(date "2026-08-15")
 		(rev "1.0.0")
 		(company "LostCacher")
 	)

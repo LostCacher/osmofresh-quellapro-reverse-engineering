@@ -666,7 +666,7 @@
         "uuid": "085f93a2-5d2b-46a2-ac0d-b864eaf3f9e9"
       }
     ],
-    "used_designators": "C1-7,C9-15,C17-19,C21-30,L1,P1,P6-8,R1-2,R4-8,R12-13,R15-18,R20,R22,R24-34,R38-47,R49-58,R64-72,Q1-10,FUSE1,U1-2,D1,D4-9,XC1,#PWR1-16,T1-2,RL1,SW1,ZNR1,EC1-2,K1-2,CN1-28,J1",
+    "used_designators": "C1-30,L1,P1,P6-8,R1-2,R4-8,R10-47,R49-72,Q1-10,FUSE1,U1-2,U4-5,D1,D4-9,XC1,#PWR1-18,T1-2,RL1,SW1,ZNR1,EC1-2,K1-2,CN1-28,J1",
     "variants": []
   },
   "sheets": [
@@ -677,6 +677,14 @@
     [
       "085f93a2-5d2b-46a2-ac0d-b864eaf3f9e9",
       "MainPCB.Secondary"
+    ],
+    [
+      "6af90889-79b5-40cd-af23-9c86fdcae070",
+      "+24Vdc"
+    ],
+    [
+      "504fb176-c22e-45b7-be64-fba2f8164026",
+      "+5Vdc"
     ],
     [
       "2b9333e9-34a2-4912-b9d7-bd9dc2d53cb4",
