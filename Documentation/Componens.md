@@ -9,15 +9,50 @@ This document lists all components identified on the OsmoFresh Quella Pro MainPC
 
 ---
 
+# Protection Devices
+
+| RefDes | Component | Value | Model | Status |
+|--------|-----------|-------|-------|:------:|
+| FUSE1 | Fuse | T16A | TT16AL250V | ✅ |
+| ZNR1 | Varistor | 560 V | VDR 14D561K | ✅ |
+
+---
+
 # Integrated Circuits (IC)
 
 | RefDes | Component | Value / Function | Part Number / Marking | Package | Status | Notes |
 |--------|-----------|------------------|------------------------|---------|:------:|-------|
 | IC1 | MCU | Main Controller | HIGHWAY-C225F | QFP-28 | ✅ | Custom MCU |
 | U1 | Buck Converter | 24 V → 5 V DC/DC | Unknown | SOT-23-5 | 🟡 | Step-down converter |
-| U3 | Opto-Triac Driver | | | SOIC-6 | ✅ | |
+| U3 | Opto-Triac Driver | | | SOIC-6 | 🟡 | |
 | U4 | Darlington Driver | 7-Channel Driver | ULN2003A | SOIC-16 | ✅ | |
 | U5 | Dual Comparator | Voltage Comparator | KM393 | SOIC-8 | ✅ |
+
+---
+
+# Relays
+
+| RefDes | Function | Model | Coil Voltage | Contact Rating | Status |
+|--------|----------|-------|--------------|----------------|:------:|
+| K1 | Heater Relay | Vuanze Y32F-SS-124HM | 24 VDC | 10 A / 250 VAC | ✅ |
+| K2 | Water Pump Relay | Vuanze Y32F-SS-124DM | 24 VDC | 5 A / 250 VAC | ✅ |
+
+---
+
+# Mechanical Components
+
+| RefDes | Description | Status | Notes |
+|--------|-------------|:------:|-------|
+| SW1 | Thermal Safety Switch | ✅ | Heater protection |
+
+---
+
+# Transformers / Magnetics
+
+| RefDes | Component | Model | Status | Notes |
+|--------|-----------|-------|:------:|-------|
+| T1 | Signal Transformer | JB-TV/A2/2-E | ✅ | AC sensing / Zero-cross detection |
+| L1 | Inductor | Unknown | 🟡 | Parallel to buck inductor L1 |
 
 ---
 
@@ -35,33 +70,6 @@ This document lists all components identified on the OsmoFresh Quella Pro MainPC
 
 ---
 
-# Relays
-
-| RefDes | Function | Model | Coil Voltage | Contact Rating | Status |
-|--------|----------|-------|--------------|----------------|:------:|
-| K1 | Heater Relay | Vuanze Y32F-SS-124HM | 24 VDC | 10 A / 250 VAC | ✅ |
-| K2 | Water Pump Relay | Vuanze Y32F-SS-124DM | 24 VDC | 5 A / 250 VAC | ✅ |
-
----
-
-# Transformers / Magnetics
-
-| RefDes | Component | Model | Status | Notes |
-|--------|-----------|-------|:------:|-------|
-| T1 | Signal Transformer | JB-TV/A2/2-E | ✅ | AC sensing / Zero-cross detection |
-| L1 | Inductor | Unknown | 🟡 | Parallel to buck inductor L1 |
-
----
-
-# Protection Devices
-
-| RefDes | Component | Value | Model | Status |
-|--------|-----------|-------|-------|:------:|
-| FUSE1 | Fuse | T16A | TT16AL250V | ✅ |
-| ZNR1 | Varistor | 560 V | VDR 14D561K | ✅ |
-
----
-
 # Diodes
 
 | RefDes | Type | Model | Status | Notes |
@@ -70,14 +78,6 @@ This document lists all components identified on the OsmoFresh Quella Pro MainPC
 | D5 | Flyback Diode | Unknown | 🟡 | Water pump inductive load suppression |
 | D6 | Flyback Diode | Unknown | 🟡 | Water outlet valve coil suppression |
 | D7 | Flyback Diode | Unknown | 🟡 | K2 relay coil suppression |
-
----
-
-# Mechanical Components
-
-| RefDes | Description | Status | Notes |
-|--------|-------------|:------:|-------|
-| SW1 | Thermal Safety Switch | ✅ | Heater protection |
 
 ---
 
