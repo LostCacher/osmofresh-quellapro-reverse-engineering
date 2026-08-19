@@ -2904,6 +2904,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 111.76) (xy 140.97 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59648a48-5839-42c4-82de-acb70501c72e")
+	)
+	(wire
+		(pts
 			(xy 113.03 99.06) (xy 118.11 99.06)
 		)
 		(stroke
@@ -3114,16 +3124,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 111.76) (xy 137.16 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba3c8f24-ae85-40e4-83a8-2a20fdbc925e")
-	)
-	(wire
-		(pts
 			(xy 113.03 99.06) (xy 113.03 121.92)
 		)
 		(stroke
@@ -3241,6 +3241,16 @@
 			(type default)
 		)
 		(uuid "dac2d07e-1027-4181-b2a0-31e611c36a1e")
+	)
+	(wire
+		(pts
+			(xy 148.59 111.76) (xy 152.4 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbe2608d-3aa5-4507-bd00-cb7d388c2fbb")
 	)
 	(wire
 		(pts
@@ -3382,7 +3392,7 @@
 	)
 	(global_label "Heat_900W"
 		(shape input)
-		(at 151.13 111.76 0)
+		(at 152.4 111.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3392,7 +3402,7 @@
 		)
 		(uuid "3ee7cad0-fc44-40bf-a241-aa0640656192")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.4565 111.76 0)
+			(at 165.7265 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3404,7 +3414,7 @@
 			)
 		)
 	)
-	(global_label "Temp_Out+"
+	(global_label "Temperature_Outlet+"
 		(shape output)
 		(at 236.22 46.99 180)
 		(fields_autoplaced yes)
@@ -3416,7 +3426,7 @@
 		)
 		(uuid "54512dbe-c6ac-4921-920b-49a436bcf2a0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 222.5911 46.99 0)
+			(at 213.3383 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3524,7 +3534,7 @@
 			)
 		)
 	)
-	(global_label "Temp_Out-"
+	(global_label "Temperature_Outlet-"
 		(shape output)
 		(at 236.22 50.8 180)
 		(fields_autoplaced yes)
@@ -3536,7 +3546,7 @@
 		)
 		(uuid "b4fd24e4-9b63-4401-b52d-e427b9f83b4f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 222.5911 50.8 0)
+			(at 213.3383 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3721,6 +3731,85 @@
 			(project "OsmoFresh_Quella_PRO"
 				(path "/fa934e2d-e6dc-4af7-b9d3-1332cdb541a5"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 144.78 111.76 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0e2a3725-5121-45fb-bc7a-a6841c1caea7")
+		(property "Reference" "R46"
+			(at 144.78 107.696 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330Ω"
+			(at 144.78 109.474 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 109.982 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 144.78 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "22d8d13a-2566-4e6d-b643-d47a08e9c05e")
+		)
+		(pin "2"
+			(uuid "2ce5bcf7-e0aa-429e-a668-51165c238977")
+		)
+		(instances
+			(project "OsmoFresh_Quella_PRO"
+				(path "/fa934e2d-e6dc-4af7-b9d3-1332cdb541a5"
+					(reference "R46")
 					(unit 1)
 				)
 			)

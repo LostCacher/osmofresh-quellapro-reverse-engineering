@@ -42,25 +42,3 @@
 | 4 | +24 V Flush Valve |
 | 5 | GND |
 | 6 | +24 V Water Pump |
-
----
-
-# User Interface
-
-## Temperature Selection
-
-- Room Temperature (RT)
-- 45 °C
-- 55 °C
-- 80 °C
-- 90 °C
-- 100 °C
-
-## Volume Selection
-
-- 150 mL
-- 300 mL
-- 450 mL
-- 600 mL
-- 750 mL
-- 900 mL

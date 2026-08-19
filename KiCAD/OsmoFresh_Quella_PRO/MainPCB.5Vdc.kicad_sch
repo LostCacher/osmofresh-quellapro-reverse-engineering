@@ -2004,6 +2004,12 @@
 		(uuid "247be915-f61c-4c51-bff3-25ee6718d9fb")
 	)
 	(junction
+		(at 190.5 330.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "284e66d9-161b-422c-9fa5-85b15a1b98d3")
+	)
+	(junction
 		(at 279.4 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2106,6 +2112,12 @@
 		(uuid "71b1ec58-a154-4265-8b65-8c00068e87ab")
 	)
 	(junction
+		(at 139.7 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77de773f-9909-4645-a5f7-486efdd29d7e")
+	)
+	(junction
 		(at 279.4 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2148,6 +2160,12 @@
 		(uuid "ab623b5e-d6e0-4db3-aa96-b144245ee665")
 	)
 	(junction
+		(at 190.5 355.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3e6c75b-729f-47e6-8607-3e66bf23020c")
+	)
+	(junction
 		(at 469.9 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2184,6 +2202,12 @@
 		(uuid "c5021fa1-2ca5-41fa-ac03-41516ce102a9")
 	)
 	(junction
+		(at 203.2 355.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6162fb8-ead3-40a3-8ad1-d649fd4d02dc")
+	)
+	(junction
 		(at 127 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2196,6 +2220,12 @@
 		(uuid "cb42ab9f-b57d-4abb-987e-878f09f25988")
 	)
 	(junction
+		(at 139.7 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cef0ab98-4d02-4074-996d-54f05791cbe7")
+	)
+	(junction
 		(at 152.4 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2206,6 +2236,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec6388b3-0209-4ffc-9957-0c01c535d1e3")
+	)
+	(junction
+		(at 203.2 330.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f002a0c6-bcf4-4eb5-ae11-b5979dbe02b7")
 	)
 	(junction
 		(at 419.1 63.5)
@@ -2238,6 +2274,16 @@
 			(type default)
 		)
 		(uuid "03fc4a9d-8c10-4c75-96f4-0d373813f52b")
+	)
+	(wire
+		(pts
+			(xy 165.1 330.2) (xy 190.5 330.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05e6096a-970b-43b0-9b3e-b50b30a45ef8")
 	)
 	(wire
 		(pts
@@ -2458,6 +2504,26 @@
 			(type default)
 		)
 		(uuid "3af2482e-b465-404c-8497-4cd6af0b95ed")
+	)
+	(wire
+		(pts
+			(xy 139.7 139.7) (xy 139.7 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c15d143-09de-4d71-b9fd-2b9fdb485a2f")
+	)
+	(wire
+		(pts
+			(xy 215.9 339.09) (xy 215.9 330.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ef502bb-8fab-4f41-a3de-3f8831a9061f")
 	)
 	(wire
 		(pts
@@ -2741,6 +2807,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 330.2) (xy 203.2 330.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "640cb9aa-c07f-4d2e-8347-5f065cc437a0")
+	)
+	(wire
+		(pts
 			(xy 431.8 113.03) (xy 461.01 113.03)
 		)
 		(stroke
@@ -2861,6 +2937,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 339.09) (xy 190.5 330.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a4eb62c-ae87-40e7-bca7-e899158131dc")
+	)
+	(wire
+		(pts
 			(xy 50.8 127) (xy 50.8 135.89)
 		)
 		(stroke
@@ -2951,6 +3037,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 355.6) (xy 203.2 355.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82ae2bee-73e8-4859-ab2a-5a78bd6e7703")
+	)
+	(wire
+		(pts
 			(xy 152.4 177.8) (xy 165.1 177.8)
 		)
 		(stroke
@@ -2958,6 +3054,16 @@
 			(type default)
 		)
 		(uuid "880f39c5-95a8-4f29-a2a9-278d5b13abfa")
+	)
+	(wire
+		(pts
+			(xy 203.2 339.09) (xy 203.2 330.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bbb83b8-4fa1-4334-9210-31d28ac17d46")
 	)
 	(wire
 		(pts
@@ -3068,6 +3174,16 @@
 			(type default)
 		)
 		(uuid "a3f91069-b621-4407-a6fc-901fe5d11510")
+	)
+	(wire
+		(pts
+			(xy 215.9 346.71) (xy 215.9 355.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5e8c5f1-020f-49f4-9e79-7a486cd62165")
 	)
 	(wire
 		(pts
@@ -3351,6 +3467,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 355.6) (xy 190.5 355.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d29a4baf-0644-4836-8352-cb20397721b9")
+	)
+	(wire
+		(pts
 			(xy 152.4 168.91) (xy 152.4 177.8)
 		)
 		(stroke
@@ -3378,6 +3504,16 @@
 			(type default)
 		)
 		(uuid "d51cd00b-84f9-40b0-9f8e-8d9c261bc61b")
+	)
+	(wire
+		(pts
+			(xy 203.2 355.6) (xy 215.9 355.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d678bee6-1912-49bb-800b-da6d00d95197")
 	)
 	(wire
 		(pts
@@ -3451,6 +3587,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 346.71) (xy 203.2 355.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcddbfbe-a3d6-485c-94b1-bfa857c3fc78")
+	)
+	(wire
+		(pts
 			(xy 78.74 314.96) (xy 78.74 309.88)
 		)
 		(stroke
@@ -3508,6 +3654,26 @@
 			(type default)
 		)
 		(uuid "e2016b6e-4474-4e72-a3a6-1e48be307312")
+	)
+	(wire
+		(pts
+			(xy 215.9 330.2) (xy 203.2 330.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2724197-73b8-4690-b6b8-8ad3e81ed12f")
+	)
+	(wire
+		(pts
+			(xy 190.5 346.71) (xy 190.5 355.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e294fe03-e2fd-442a-8fc6-e315fbc29391")
 	)
 	(wire
 		(pts
@@ -3651,6 +3817,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 152.4) (xy 139.7 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8c4d173-da41-4377-b688-b85c4cf38cc5")
+	)
+	(wire
+		(pts
 			(xy 406.4 118.11) (xy 406.4 165.1)
 		)
 		(stroke
@@ -3716,6 +3892,30 @@
 		(uuid "29c642e6-32f8-4def-b9ec-b064f8ed145a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 432.0201 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "Temperature_Outlet-"
+		(shape input)
+		(at 139.7 165.1 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3a393a63-74b4-4e54-baf2-dcda967db0dc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.7 187.9817 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3812,6 +4012,30 @@
 		(uuid "bd1ce60f-369e-47a6-89b5-84d4a712acc2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 419.1 24.6524 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Temperature_Outlet+"
+		(shape input)
+		(at 139.7 139.7 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cf71ec87-bde4-4dfb-809c-48e39cf9fb8c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.7 116.8183 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4790,6 +5014,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 165.1 355.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32614873-2d59-4461-b061-57ebc20af4e0")
+		(property "Reference" "#PWR014"
+			(at 165.1 361.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 360.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 355.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 355.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 165.1 355.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8e046669-4a29-4f72-b932-18701bb26e3f")
+		)
+		(instances
+			(project "OsmoFresh_Quella_PRO"
+				(path "/4260df0e-d900-46a1-97d3-cde6b2933985/e56ab9bc-d891-4c79-8dcd-46998557321d"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 46.99 300.99 0)
 		(mirror y)
@@ -4811,8 +5113,8 @@
 				)
 			)
 		)
-		(property "Value" "30µF 10V"
-			(at 54.61 302.514 0)
+		(property "Value" "330µF 10V"
+			(at 55.118 302.514 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4956,6 +5258,86 @@
 			(project "MainPCB.Secondary"
 				(path "/a1f5dfe7-a8fc-469d-9725-b00c7d3dab31/504fb176-c22e-45b7-be64-fba2f8164026"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 203.2 342.9 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "42ef0524-e298-43d8-bd70-801ec7b1df90")
+		(property "Reference" "C17"
+			(at 207.772 342.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "unkown"
+			(at 199.644 342.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 202.2348 339.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 342.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 203.2 342.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1f162843-2fd2-49d6-8ce7-0d36453a3274")
+		)
+		(pin "1"
+			(uuid "7cfed02b-f7af-4048-918e-fe0020c91be0")
+		)
+		(instances
+			(project "OsmoFresh_Quella_PRO"
+				(path "/4260df0e-d900-46a1-97d3-cde6b2933985/e56ab9bc-d891-4c79-8dcd-46998557321d"
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -5297,6 +5679,86 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 190.5 342.9 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "601ed038-f1da-4b28-8240-6aba2a646593")
+		(property "Reference" "C2"
+			(at 195.072 342.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "unkown"
+			(at 186.944 342.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.5348 339.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 342.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 190.5 342.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6e789341-a1ce-4570-b96d-725de12a8038")
+		)
+		(pin "1"
+			(uuid "878b82f1-c89c-492c-82ba-ee038d968687")
+		)
+		(instances
+			(project "OsmoFresh_Quella_PRO"
+				(path "/4260df0e-d900-46a1-97d3-cde6b2933985/e56ab9bc-d891-4c79-8dcd-46998557321d"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 85.09 368.3 0)
 		(mirror y)
 		(unit 1)
@@ -5377,6 +5839,86 @@
 			(project "MainPCB.Secondary"
 				(path "/a1f5dfe7-a8fc-469d-9725-b00c7d3dab31/504fb176-c22e-45b7-be64-fba2f8164026"
 					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at -15.24 236.22 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6454f7bc-7e12-41f5-a833-6c399144e1c3")
+		(property "Reference" "C12"
+			(at -10.668 236.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "unkown"
+			(at -18.796 236.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -16.2052 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at -15.24 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at -15.24 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bcef7395-d6f4-460b-9de3-88c5f2be7d76")
+		)
+		(pin "1"
+			(uuid "30652f6f-6eca-4842-8fcc-d8eaabaa76de")
+		)
+		(instances
+			(project "OsmoFresh_Quella_PRO"
+				(path "/4260df0e-d900-46a1-97d3-cde6b2933985/e56ab9bc-d891-4c79-8dcd-46998557321d"
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -6529,6 +7071,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at -15.24 223.52 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "acdc99e0-d957-401d-adeb-f5c24938befe")
+		(property "Reference" "C13"
+			(at -10.668 223.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "unkown"
+			(at -18.796 223.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -16.2052 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at -15.24 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at -15.24 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "059bf40c-c47b-4df0-8240-48bacef791e2")
+		)
+		(pin "1"
+			(uuid "fb51ed42-3d58-49f7-ad84-81da20c1e776")
+		)
+		(instances
+			(project "OsmoFresh_Quella_PRO"
+				(path "/4260df0e-d900-46a1-97d3-cde6b2933985/e56ab9bc-d891-4c79-8dcd-46998557321d"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 152.4 139.7 0)
 		(unit 1)
@@ -6855,6 +7477,84 @@
 			(project "MainPCB.Secondary"
 				(path "/a1f5dfe7-a8fc-469d-9725-b00c7d3dab31/504fb176-c22e-45b7-be64-fba2f8164026"
 					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 165.1 330.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba05650b-e9aa-4ef0-ad7d-f7b4aa80d7dd")
+		(property "Reference" "#PWR09"
+			(at 165.1 334.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 165.1 325.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 330.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 330.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 165.1 330.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a74b76b1-4807-4123-97ad-849ccb995b79")
+		)
+		(instances
+			(project "OsmoFresh_Quella_PRO"
+				(path "/4260df0e-d900-46a1-97d3-cde6b2933985/e56ab9bc-d891-4c79-8dcd-46998557321d"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -7429,6 +8129,86 @@
 			(project "MainPCB.Secondary"
 				(path "/a1f5dfe7-a8fc-469d-9725-b00c7d3dab31/504fb176-c22e-45b7-be64-fba2f8164026"
 					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 215.9 342.9 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c9597619-b25b-4afd-8b52-7f6cafa9c1cb")
+		(property "Reference" "C14"
+			(at 220.472 342.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "unkown"
+			(at 212.344 342.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.9348 339.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 342.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 215.9 342.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5b2dbe4e-5aa2-41c4-a0ab-ca308d802270")
+		)
+		(pin "1"
+			(uuid "439766a1-276a-4e80-bdc7-d50f7c4bdbaa")
+		)
+		(instances
+			(project "OsmoFresh_Quella_PRO"
+				(path "/4260df0e-d900-46a1-97d3-cde6b2933985/e56ab9bc-d891-4c79-8dcd-46998557321d"
+					(reference "C14")
 					(unit 1)
 				)
 			)
