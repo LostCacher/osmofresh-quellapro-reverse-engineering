@@ -146,7 +146,7 @@ This document lists all components identified on the OsmoFresh Quella Pro MainPC
 # Capacitors
 
 | RefDes | Value | Type | Package | Voltage | Status | Notes |
-|--------|-------|------|---------|:------:|-------|
+|--------|-----------|------------------|------------------------|---------|:------:|-------|
 | XC1 | 100 nF | X2 Safety Capacitor | Radial Box THT (10 mm LP) | 275 VAC | ✅ | |
 | EC1 | 470 µF | Electrolytic | Radial Electrolytic Ø12.5 × 20 mm | 50 V | ✅ | |
 | EC2 | 330 µF | Electrolytic | Radial Electrolytic Ø6.3 × 11 mm oder Ø6.3 × 11.5 mm | 10 V | ✅ | |
