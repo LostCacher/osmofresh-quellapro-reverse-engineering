@@ -23,7 +23,7 @@ This document lists all components identified on the OsmoFresh Quella Pro MainPC
 | RefDes | Component | Value / Function | Part Number / Marking | Package | Status | Notes |
 |--------|-----------|------------------|------------------------|---------|:------:|-------|
 | IC1 | MCU | Main Controller | HIGHWAY-C225F | QFP-28 | ✅ | Custom MCU |
-| U1 | Buck Converter | 24 V → 5 V DC/DC | Unknown | SOT-23-5 | 🟡 | Step-down converter |
+| U1 | Buck Converter | 24 V → 5 V DC/DC | | SOT-23-5 | 🟡 | Step-down converter |
 | U3 | Opto-Triac Driver | | | SOIC-6 | 🟡 | |
 | U4 | Darlington Driver | 7-Channel Driver | ULN2003A | SOIC-16 | ✅ | |
 | U5 | Dual Comparator | Voltage Comparator | KM393 | SOIC-8 | ✅ |
@@ -52,7 +52,7 @@ This document lists all components identified on the OsmoFresh Quella Pro MainPC
 | RefDes | Component | Model | Status | Notes |
 |--------|-----------|-------|:------:|-------|
 | T1 | Signal Transformer | JB-TV/A2/2-E | ✅ | AC sensing / Zero-cross detection |
-| L1 | Inductor | Unknown | 🟡 | Parallel to buck inductor L1 |
+| L1 | Inductor | | 🟡 | Parallel to buck inductor L1 |
 
 ---
 
@@ -61,12 +61,12 @@ This document lists all components identified on the OsmoFresh Quella Pro MainPC
 | RefDes | Type | Part Number | Package | Status | Notes |
 |--------|------|-------------|---------|:------:|-------|
 | Q1 | TRIAC | BTA16-800CW | TO-220 | ✅ | 900 W heater triac |
-| Q2 | NMOS | Unknown | SOT-23 | 🟡 | Heater relay low-side driver |
-| Q3 | NPN BJT | Unknown | SOT-23 | 🟡 | Input inverter / signal conditioning |
-| Q4 | PMOS | Unknown | SOT-23 | 🟡 | Water outlet valve high-side switch |
-| Q5 | NPN BJT | Unknown | SOT-23 | 🟡 | Water pump relay low-side driver |
-| Q6 | NPN BJT | Unknown | SOT-23 | 🟡 | Input inverter / signal conditioning |
-| Q8 | NPN BJT | Unknown | SOT-23 | 🟡 | PMOS gate driver |
+| Q2 | NMOS | | SOT-23 | 🟡 | Heater relay low-side driver |
+| Q3 | NPN BJT | | SOT-23 | 🟡 | Input inverter / signal conditioning |
+| Q4 | PMOS | | SOT-23 | 🟡 | Water outlet valve high-side switch |
+| Q5 | NPN BJT | | SOT-23 | 🟡 | Water pump relay low-side driver |
+| Q6 | NPN BJT | | SOT-23 | 🟡 | Input inverter / signal conditioning |
+| Q8 | NPN BJT | | SOT-23 | 🟡 | PMOS gate driver |
 
 ---
 
@@ -74,10 +74,10 @@ This document lists all components identified on the OsmoFresh Quella Pro MainPC
 
 | RefDes | Type | Model | Status | Notes |
 |--------|------|-------|:------:|-------|
-| D4 | Flyback Diode | Unknown | 🟡 | K1 relay coil suppression |
-| D5 | Flyback Diode | Unknown | 🟡 | Water pump inductive load suppression |
-| D6 | Flyback Diode | Unknown | 🟡 | Water outlet valve coil suppression |
-| D7 | Flyback Diode | Unknown | 🟡 | K2 relay coil suppression |
+| D4 | Flyback Diode | | 🟡 | K1 relay coil suppression |
+| D5 | Flyback Diode | | 🟡 | Water pump inductive load suppression |
+| D6 | Flyback Diode | | 🟡 | Water outlet valve coil suppression |
+| D7 | Flyback Diode | | 🟡 | K2 relay coil suppression |
 
 ---
 
@@ -86,12 +86,10 @@ This document lists all components identified on the OsmoFresh Quella Pro MainPC
 | RefDes | Value | Type | Package | Status | Notes |
 |--------|-------|------|---------|:------:|-------|
 | RL1 | | Resistor | SMD 1206 | 🟡 | Parallel to L1 (buck converter) |
-
 | R4 | 2 kΩ | Resistor | SMD 0805 | ✅ | |
 | R5 | 2 kΩ | Resistor | SMD 0805 | ✅ | |
 | R6 | 10 kΩ | Resistor | SMD 0805 | ✅ | |
 | R7 | 180 Ω | Resistor | SMD 2010 | ✅ | Triac gate resistor |
-
 | R10 | 2 kΩ | Resistor | SMD 0805 | ✅ | |
 | R11 | 10 kΩ | Resistor | SMD 0805 | ✅ | |
 | R12 | 2 kΩ | Resistor | SMD 0805 | ✅ | |
@@ -121,13 +119,10 @@ This document lists all components identified on the OsmoFresh Quella Pro MainPC
 | R36 | 10 kΩ | Resistor | SMD 0805 | ✅ | |
 | R37 | 10 kΩ | Resistor | SMD 0805 | ✅ | |
 | R38 | 10 kΩ | Resistor | SMD 0805 | ✅ | |
-
 | R40 | 10 kΩ | Resistor | SMD 0805 | ✅ | |
 | R41 | 10 kΩ | Resistor | SMD 0805 | ✅ | |
-
 | R44 | 330 Ω | Resistor | SMD 0805 | ✅ | |
 | R45 | 2 kΩ | Resistor | SMD 0805 | ✅ | |
-
 | R49 | 220 Ω | Resistor | SMD 0805 | ✅ | |
 | R50 | 220 Ω | Resistor | SMD 0805 | ✅ | |
 | R51 | 750 Ω | Resistor | SMD 1206 | ✅ | |
@@ -135,7 +130,6 @@ This document lists all components identified on the OsmoFresh Quella Pro MainPC
 | R53 | 10 kΩ | Resistor | SMD 0805 | ✅ | |
 | R54 | 10 kΩ | Resistor | SMD 0805 | ✅ | |
 | R55 | 5.1 Ω | Power resistor | SMD 2010 | ✅ | Water outlet valve series resistor |
-
 | R59 | 470 Ω | Resistor | SMD 0805 | ✅ | |
 | R60 | 10 kΩ | Resistor | SMD 0805 | ✅ | |
 | R61 | 47 kΩ | Resistor | SMD 0805 | ✅ | |
