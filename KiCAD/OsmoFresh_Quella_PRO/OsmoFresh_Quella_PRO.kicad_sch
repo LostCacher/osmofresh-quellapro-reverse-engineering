@@ -3747,7 +3747,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0e2a3725-5121-45fb-bc7a-a6841c1caea7")
-		(property "Reference" "R46"
+		(property "Reference" "R44"
 			(at 144.78 107.696 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3809,7 +3809,7 @@
 		(instances
 			(project "OsmoFresh_Quella_PRO"
 				(path "/fa934e2d-e6dc-4af7-b9d3-1332cdb541a5"
-					(reference "R46")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -4311,7 +4311,7 @@
 				)
 			)
 		)
-		(property "Value" "0,1µF"
+		(property "Value" "100nF"
 			(at 68.58 133.604 90)
 			(show_name no)
 			(do_not_autoplace no)

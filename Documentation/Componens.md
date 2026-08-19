@@ -99,7 +99,7 @@ This document lists all components identified on the OsmoFresh Quella Pro MainPC
 | R16 | 2 kΩ | Resistor | SMD 0805 | ✅ | |
 | R17 | 2 kΩ | Resistor | SMD 0805 | ✅ | |
 | R18 | 4.7 kΩ | Resistor | SMD 0805 | ✅ | |
-| R19 | 4.7 kΩ | Resistor | SMD 0805 | ✅ | |
+| R19 | 470 Ω | Resistor | SMD 0805 | ✅ | |
 | R20 | 10 kΩ | Resistor | SMD 0805 | ✅ | |
 | R21 | 1 kΩ | Resistor | SMD 0805 | ✅ | |
 | R22 | 2 kΩ | Resistor | SMD 0805 | ✅ | |

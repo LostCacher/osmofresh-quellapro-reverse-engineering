@@ -3351,6 +3351,12 @@
 		(uuid "771198d3-30e3-41ec-8e92-f293218ed4e1")
 	)
 	(junction
+		(at 391.16 508)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79508d69-a4e4-4598-857f-9b6db7c974c8")
+	)
+	(junction
 		(at 441.96 532.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4060,6 +4066,16 @@
 	)
 	(wire
 		(pts
+			(xy 412.75 508) (xy 391.16 508)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e6c18ca-a91e-4ac4-8182-6dacbc293e00")
+	)
+	(wire
+		(pts
 			(xy 478.79 355.6) (xy 483.87 355.6)
 		)
 		(stroke
@@ -4410,6 +4426,16 @@
 	)
 	(wire
 		(pts
+			(xy 391.16 325.12) (xy 391.16 508)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a38a0e6-39b0-4b36-98ef-223cf291f967")
+	)
+	(wire
+		(pts
 			(xy 391.16 519.43) (xy 412.75 519.43)
 		)
 		(stroke
@@ -4587,6 +4613,16 @@
 			(type default)
 		)
 		(uuid "b361e210-edd1-45b3-9d93-6d5e84ced405")
+	)
+	(wire
+		(pts
+			(xy 391.16 508) (xy 391.16 519.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3991729-853b-401e-a974-aa8542863634")
 	)
 	(wire
 		(pts
@@ -4800,6 +4836,16 @@
 	)
 	(wire
 		(pts
+			(xy 420.37 508) (xy 441.96 508)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2ab8443-fd21-48d9-9587-f0c652b39804")
+	)
+	(wire
+		(pts
 			(xy 534.67 431.8) (xy 538.48 431.8)
 		)
 		(stroke
@@ -4807,16 +4853,6 @@
 			(type default)
 		)
 		(uuid "d5f6667a-a20d-4001-b04d-05cff1117da5")
-	)
-	(wire
-		(pts
-			(xy 391.16 325.12) (xy 391.16 519.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d638037a-daab-4baf-bffa-90c08a0e5aba")
 	)
 	(wire
 		(pts
@@ -6223,7 +6259,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e1f01a3-8256-46c9-a145-65edca36c579")
-		(property "Reference" "R39"
+		(property "Reference" "R38"
 			(at 377.19 273.05 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6285,7 +6321,7 @@
 		(instances
 			(project "OsmoFresh_Quella_PRO"
 				(path "/4260df0e-d900-46a1-97d3-cde6b2933985/00785b84-3607-4d80-92ae-17ec4beff254"
-					(reference "R39")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -7411,6 +7447,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 416.56 508 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "570eb3e9-4751-4c4c-949f-9fc04247df8f")
+		(property "Reference" "C12"
+			(at 416.56 504.698 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "unkown"
+			(at 416.56 511.556 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 412.75 508.9652 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 416.56 508 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 416.56 508 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ec0cfa50-49a7-48ce-a620-c558cc893898")
+		)
+		(pin "1"
+			(uuid "cfc49a44-d900-45cc-943f-4681f0309c49")
+		)
+		(instances
+			(project "OsmoFresh_Quella_PRO"
+				(path "/4260df0e-d900-46a1-97d3-cde6b2933985/00785b84-3607-4d80-92ae-17ec4beff254"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 480.06 406.4 180)
 		(unit 1)
@@ -7431,7 +7547,7 @@
 				)
 			)
 		)
-		(property "Value" "5,1kΩ"
+		(property "Value" "510Ω"
 			(at 484.886 407.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7725,7 +7841,7 @@
 				)
 			)
 		)
-		(property "Value" "20kΩ"
+		(property "Value" "10kΩ"
 			(at 454.66 342.9 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8051,7 +8167,7 @@
 				)
 			)
 		)
-		(property "Value" "20kΩ"
+		(property "Value" "10kΩ"
 			(at 454.406 332.994 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8589,7 +8705,7 @@
 				)
 			)
 		)
-		(property "Value" "20kΩ"
+		(property "Value" "10kΩ"
 			(at 454.66 353.06 90)
 			(show_name no)
 			(do_not_autoplace no)
