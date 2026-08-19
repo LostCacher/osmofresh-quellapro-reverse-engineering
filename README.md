@@ -35,9 +35,8 @@ The published schematics are based on reverse engineering and may contain errors
 - ✅ Device teardown
 - ✅ Component identification
 - ✅ Primary power stage schematic
-- 🔄 Main PCB reverse engineering
-- ⏳ Secondary side schematic
-- ⏳ UART protocol analysis
+- ✅ Main PCB reverse engineering
+- 🔄 UART protocol analysis
 - ⏳ Firmware investigation
 
 ## Contributions, corrections and additional information are welcome.
