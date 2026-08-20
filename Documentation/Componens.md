@@ -23,10 +23,10 @@ This document lists all components identified on the OsmoFresh Quella Pro MainPC
 | RefDes | Component | Value / Function | Part Number / Marking | Package | Status | Notes |
 |--------|-----------|------------------|------------------------|---------|:------:|-------|
 | IC1 | MCU | Main Controller | HIGHWAY-C225F | QFP-28 | ✅ | Custom MCU |
-| U1 | Buck Converter | 24 V → 5 V DC/DC | | SOT-23-5 | 🟡 | Step-down converter |
-| U3 | Opto-Triac Driver | | | SOIC-6 | 🟡 | |
-| U4 | Darlington Driver | 7-Channel Driver | ULN2003A | SOIC-16 | ✅ | |
-| U5 | Dual Comparator | Voltage Comparator | KM393 | SOIC-8 | ✅ |
+| U1 | Buck Converter | 24 V → 5 V DC/DC | Unknown | SOT-23-5 | 🟡 | Step-down converter |
+| U3 | Zero-Cross Triac Driver Optocoupler | MOC3063M | SOIC-6 | ✅ | Optically isolated zero-cross triac driver |
+| U4 | Darlington Driver | 7-Channel Driver | ULN2003A | SOIC-16 | ✅ | Low-side driver array |
+| U5 | Dual Comparator | Voltage Comparator | KM393 | SOIC-8 | ✅ | Dual comparator |
 
 ---
 
@@ -35,7 +35,7 @@ This document lists all components identified on the OsmoFresh Quella Pro MainPC
 | RefDes | Function | Model | Coil Voltage | Contact Rating | Status |
 |--------|----------|-------|--------------|----------------|:------:|
 | K1 | Heater Relay | Vuanze Y32F-SS-124HM | 24 VDC | 10 A / 250 VAC | ✅ |
-| K2 | Water Pump Relay | Vuanze Y32F-SS-124DM | 24 VDC | 5 A / 250 VAC | ✅ |
+| K2 | Bosoter Pump Relay | Vuanze Y32F-SS-124DM | 24 VDC | 5 A / 250 VAC | ✅ |
 
 ---
 
@@ -52,7 +52,7 @@ This document lists all components identified on the OsmoFresh Quella Pro MainPC
 | RefDes | Component | Model | Status | Notes |
 |--------|-----------|-------|:------:|-------|
 | T1 | Signal Transformer | JB-TV/A2/2-E | ✅ | AC sensing / Zero-cross detection |
-| L1 | Inductor | | 🟡 | Parallel to buck inductor L1 |
+| L1 | Inductor | Unknown | 🟡 | Parallel to buck inductor L1 |
 
 ---
 
@@ -61,12 +61,12 @@ This document lists all components identified on the OsmoFresh Quella Pro MainPC
 | RefDes | Type | Part Number | Package | Status | Notes |
 |--------|------|-------------|---------|:------:|-------|
 | Q1 | TRIAC | BTA16-800CW | TO-220 | ✅ | 900 W heater triac |
-| Q2 | NMOS | | SOT-23 | 🟡 | Heater relay low-side driver |
-| Q3 | NPN BJT | | SOT-23 | 🟡 | Input inverter / signal conditioning |
-| Q4 | PMOS | | SOT-23 | 🟡 | Water outlet valve high-side switch |
-| Q5 | NPN BJT | | SOT-23 | 🟡 | Water pump relay low-side driver |
-| Q6 | NPN BJT | | SOT-23 | 🟡 | Input inverter / signal conditioning |
-| Q8 | NPN BJT | | SOT-23 | 🟡 | PMOS gate driver |
+| Q2 | NMOS | Unknown | SOT-23 | 🟡 | Heater relay low-side driver |
+| Q3 | NPN BJT | Unknown | SOT-23 | 🟡 | Input inverter / signal conditioning |
+| Q4 | PMOS | Unknown | SOT-23 | 🟡 | Feed Pump high-side switch |
+| Q5 | NPN BJT | Unknown | SOT-23 | 🟡 | Booster pump relay low-side driver |
+| Q6 | NPN BJT | Unknown | SOT-23 | 🟡 | Input inverter / signal conditioning |
+| Q8 | NPN BJT | Unknown | SOT-23 | 🟡 | PMOS gate driver |
 
 ---
 
@@ -74,10 +74,10 @@ This document lists all components identified on the OsmoFresh Quella Pro MainPC
 
 | RefDes | Type | Model | Status | Notes |
 |--------|------|-------|:------:|-------|
-| D4 | Flyback Diode | | 🟡 | K1 relay coil suppression |
-| D5 | Flyback Diode | | 🟡 | Water pump inductive load suppression |
-| D6 | Flyback Diode | | 🟡 | Water outlet valve coil suppression |
-| D7 | Flyback Diode | | 🟡 | K2 relay coil suppression |
+| D4 | Flyback Diode | Unknown | 🟡 | K1 relay coil suppression |
+| D5 | Flyback Diode | Unknown | 🟡 | Booster pump inductive load suppression |
+| D6 | Flyback Diode | Unknown | 🟡 | Feed Pump inductive load suppression |
+| D7 | Flyback Diode | Unknown | 🟡 | K2 relay coil suppression |
 
 ---
 
@@ -85,7 +85,7 @@ This document lists all components identified on the OsmoFresh Quella Pro MainPC
 
 | RefDes | Value | Type | Package | Status | Notes |
 |--------|-------|------|---------|:------:|-------|
-| RL1 | | Resistor | SMD 1206 | 🟡 | Parallel to L1 (buck converter) |
+| RL1 | Unknown | Resistor | SMD 1206 | 🟡 | Parallel to L1 (buck converter) |
 | R4 | 2 kΩ | Resistor | SMD 0805 | ✅ | |
 | R5 | 2 kΩ | Resistor | SMD 0805 | ✅ | |
 | R6 | 10 kΩ | Resistor | SMD 0805 | ✅ | |
@@ -129,12 +129,12 @@ This document lists all components identified on the OsmoFresh Quella Pro MainPC
 | R52 | 750 Ω | Resistor | SMD 1206 | ✅ | |
 | R53 | 10 kΩ | Resistor | SMD 0805 | ✅ | |
 | R54 | 10 kΩ | Resistor | SMD 0805 | ✅ | |
-| R55 | 5.1 Ω | Power resistor | SMD 2010 | ✅ | Water outlet valve series resistor |
+| R55 | 5.1 Ω | Power resistor | SMD 2010 | ✅ | Feed pump current shunt |
 | R59 | 470 Ω | Resistor | SMD 0805 | ✅ | |
 | R60 | 10 kΩ | Resistor | SMD 0805 | ✅ | |
 | R61 | 47 kΩ | Resistor | SMD 0805 | ✅ | |
-| R62 | 0.62 Ω | Power resistor | Axial THT | ✅ | Pump current shunt (parallel with R63) |
-| R63 | 0.62 Ω | Power resistor | Axial THT | ✅ | Pump current shunt (parallel with R62) |
+| R62 | 0.62 Ω | Power resistor | Axial THT | ✅ | Booster pump current shunt |
+| R63 | 0.62 Ω | Power resistor | Axial THT | ✅ | Booster pump current shunt |
 | R64 | 2 kΩ | Resistor | SMD 0805 | ✅ | |
 | R65 | 2 kΩ | Resistor | SMD 0805 | ✅ | |
 | R66 | 2 kΩ | Resistor | SMD 0805 | ✅ | |
@@ -150,33 +150,33 @@ This document lists all components identified on the OsmoFresh Quella Pro MainPC
 | XC1 | 100 nF | X2 Safety Capacitor | Radial Box THT (10 mm LP) | 275 VAC | ✅ | |
 | EC1 | 470 µF | Electrolytic | Radial Electrolytic Ø12.5 × 20 mm | 50 V | ✅ | |
 | EC2 | 330 µF | Electrolytic | Radial Electrolytic Ø6.3 × 11 mm oder Ø6.3 × 11.5 mm | 10 V | ✅ | |
-| C1 | | Ceramic | 0805 | | ❓ | |
-| C2 | | Ceramic | 0805 | | ❓ | |
-| C3 | | Ceramic | 0805 | | ❓ | |
-| C4 | | Ceramic | 0805 | | ❓ | |
-| C5 | | Ceramic | 0805 | | ❓ | |
-| C6 | | Ceramic | 0805 | | ❓ | |
-| C7 | | Ceramic | 0805 | | ❓ | |
-| C8 | | Ceramic | 0805 | | ❓ | |
-| C9 | | Ceramic | 0805 | | ❓ | |
-| C10 | | Ceramic | 0805 | | ❓ | |
-| C11 | | Ceramic | 0805 | | ❓ | |
-| C12 | | Ceramic | 0805 | | ❓ | |
-| C13 | | Ceramic | 0805 | | ❓ | |
-| C14 | | Ceramic | 0805 | | ❓ | |
-| C15 | | Ceramic | 0805 | | ❓ | |
-| C16 | | Ceramic | 0805 | | ❓ | |
-| C17 | | Ceramic | 0805 | | ❓ | |
-| C18 | | Ceramic | 0805 | | ❓ | |
-| C19 | | Ceramic | 0805 | | ❓ | |
-| C20 | | Ceramic | 0805 | | ❓ | |
-| C21 | | Ceramic | 0805 | | ❓ | |
-| C22 | | Ceramic | 0805 | | ❓ | |
-| C23 | | Ceramic | 0805 | | ❓ | |
-| C24 | | Ceramic | 0805 | | ❓ | |
-| C25 | | Ceramic | 0805 | | ❓ | |
-| C26 | | Ceramic | 0805 | | ❓ | |
-| C27 | | Ceramic | 0805 | | ❓ | |
+| C1 | Unknown | Ceramic | 0805 | Unknown | 🟡 | |
+| C2 | Unknown | Ceramic | 0805 | Unknown | 🟡 | |
+| C3 | Unknown | Ceramic | 0805 | Unknown | 🟡 | |
+| C4 | Unknown | Ceramic | 0805 | Unknown | 🟡 | |
+| C5 | Unknown | Ceramic | 0805 | Unknown | 🟡 | |
+| C6 | Unknown | Ceramic | 0805 | Unknown | 🟡 | |
+| C7 | Unknown | Ceramic | 0805 | Unknown | 🟡 | |
+| C8 | Unknown | Ceramic | 0805 | Unknown | 🟡 | |
+| C9 | Unknown | Ceramic | 0805 | Unknown | 🟡 | |
+| C10 | Unknown | Ceramic | 0805 | Unknown | 🟡 | |
+| C11 | Unknown | Ceramic | 0805 | Unknown | 🟡 | |
+| C12 | Unknown | Ceramic | 0805 | Unknown | 🟡 | |
+| C13 | Unknown | Ceramic | 0805 | Unknown | 🟡 | |
+| C14 | Unknown | Ceramic | 0805 | Unknown | 🟡 | |
+| C15 | Unknown | Ceramic | 0805 | Unknown | 🟡 | |
+| C16 | Unknown | Ceramic | 0805 | Unknown | 🟡 | |
+| C17 | Unknown | Ceramic | 0805 | Unknown | 🟡 | |
+| C18 | Unknown | Ceramic | 0805 | Unknown | 🟡 | |
+| C19 | Unknown | Ceramic | 0805 | Unknown | 🟡 | |
+| C20 | Unknown | Ceramic | 0805 | Unknown | 🟡 | |
+| C21 | Unknown | Ceramic | 0805 | Unknown | 🟡 | |
+| C22 | Unknown | Ceramic | 0805 | Unknown | 🟡 | |
+| C23 | Unknown | Ceramic | 0805 | Unknown | 🟡 | |
+| C24 | Unknown | Ceramic | 0805 | Unknown | 🟡 | |
+| C25 | Unknown | Ceramic | 0805 | Unknown | 🟡 | |
+| C26 | Unknown | Ceramic | 0805 | Unknown | 🟡 | |
+| C27 | Unknown | Ceramic | 0805 | Unknown | 🟡 | |
 
 ---
 

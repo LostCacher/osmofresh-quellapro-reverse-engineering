@@ -26,8 +26,8 @@
 | **CN8** | UNUSED [+5Vdc] |
 | **CN9** | TDS sensor (2-pin) |
 | **CN10** | 6-pin actuator connector |
-| **CN11** | Display interface (5 V, TX, RX, GND) |
-| **CN12** | Water outlet valve (before heater) [+24Vdc] |
+| **CN11** | Display interface (5 V, TX, RX, GND) [+5Vdc] |
+| **CN12** | Feed Pump [+24Vdc] |
 | **CN13** | UNUSED [+24Vdc] |
 | **CN14** | Reed switch (2-pin) – Internal tank level sensor (red HW or NW)|
 | **CN16** | UNUSED [+5Vdc] |
@@ -37,8 +37,8 @@
 | Pin | Function |
 |----:|----------|
 | 1 | GND |
-| 2 | +24 V (Not connected) |
+| 2 | +24 V (Not connected) [+24Vdc] |
 | 3 | GND |
-| 4 | +24 V Flush Valve |
+| 4 | +24 V Flush Valve [+24Vdc] |
 | 5 | GND |
-| 6 | +24 V Water Pump |
+| 6 | +24 V Booster Pump [+24Vdc] |

@@ -6,14 +6,14 @@
 	(paper "A4")
 	(title_block
 		(title "MainPCB Secondary")
-		(date "2026-08-15")
+		(date "2026-08-20")
 		(rev "1.0.0")
 		(company "LostCacher")
 	)
 	(lib_symbols)
 	(sheet
-		(at 38.1 38.1)
-		(size 38.1 25.4)
+		(at 25.4 63.5)
+		(size 63.5 63.5)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -28,7 +28,7 @@
 		)
 		(uuid "00785b84-3607-4d80-92ae-17ec4beff254")
 		(property "Sheetname" "+24Vdc"
-			(at 38.1 37.3884 0)
+			(at 25.4 62.7884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39,7 +39,7 @@
 			)
 		)
 		(property "Sheetfile" "MainPCB.24Vdc.kicad_sch"
-			(at 38.1 64.0846 0)
+			(at 25.4 127.5846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -58,8 +58,8 @@
 		)
 	)
 	(sheet
-		(at 139.7 38.1)
-		(size 38.1 25.4)
+		(at 203.2 63.5)
+		(size 63.5 63.5)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -74,7 +74,7 @@
 		)
 		(uuid "5831b081-567a-432f-93b3-923d499e1c08")
 		(property "Sheetname" "MCU"
-			(at 139.7 37.3884 0)
+			(at 203.2 62.7884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -85,7 +85,7 @@
 			)
 		)
 		(property "Sheetfile" "MainPCB.MCU.kicad_sch"
-			(at 139.7 64.0846 0)
+			(at 203.2 127.5846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -104,8 +104,8 @@
 		)
 	)
 	(sheet
-		(at 88.9 38.1)
-		(size 38.1 25.4)
+		(at 114.3 63.5)
+		(size 63.5 63.5)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -120,7 +120,7 @@
 		)
 		(uuid "e56ab9bc-d891-4c79-8dcd-46998557321d")
 		(property "Sheetname" "+5Vdc"
-			(at 88.9 37.3884 0)
+			(at 114.3 62.7884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -131,7 +131,7 @@
 			)
 		)
 		(property "Sheetfile" "MainPCB.5Vdc.kicad_sch"
-			(at 88.9 64.0846 0)
+			(at 114.3 127.5846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
