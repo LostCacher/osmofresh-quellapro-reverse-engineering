@@ -2788,7 +2788,7 @@
 		)
 		(uuid "ea11a585-7a58-4880-84f6-89dc6e8088e2")
 	)
-	(text "Zero Cross Dedection"
+	(text "Zero Cross Detection"
 		(exclude_from_sim no)
 		(at 133.35 185.42 0)
 		(effects

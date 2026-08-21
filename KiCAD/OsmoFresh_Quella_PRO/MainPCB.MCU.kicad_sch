@@ -1477,7 +1477,7 @@
 		)
 		(uuid "1089ba66-ccc7-4393-a865-fa6e05cf43e2")
 	)
-	(text "UART Userinterface"
+	(text "UART (Display)"
 		(exclude_from_sim no)
 		(at 266.7 33.02 0)
 		(effects
