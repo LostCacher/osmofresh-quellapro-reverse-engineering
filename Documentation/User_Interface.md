@@ -40,7 +40,9 @@
 
 - Selected Volume
 - TDS Value
-- Outlet Water Temperature
-- Water Tank Empty
-- Filter Process Active
+- Water Temperature
+- Water Tank Empty (Red Water Drop)
+- Filter Process Active (White Water Drop)
+- Internal Tank Empty (White Water Drop Flashing)
 - Filter Lifetime (Stage 1 / 2 / 3)
+- Malfunction + Error Code
