@@ -6,7 +6,7 @@
 	(paper "A2")
 	(title_block
 		(title "MainPCB +5Vdc")
-		(date "2026-08-20")
+		(date "2026-08-22")
 		(rev "1.0.0")
 		(company "LostCacher")
 	)
@@ -4916,8 +4916,8 @@
 			)
 		)
 	)
-	(global_label "IC1_Pin12"
-		(shape bidirectional)
+	(global_label "AC_Sense"
+		(shape output)
 		(at 190.5 317.5 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4928,7 +4928,7 @@
 		)
 		(uuid "0ead7021-ecb8-4d5a-9b06-cae6a8904732")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.0912 317.5 0)
+			(at 202.3752 317.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
