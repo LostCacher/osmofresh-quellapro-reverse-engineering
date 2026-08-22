@@ -26,3 +26,11 @@ __pycache__/
 
 # Datasheets
 Datasheets/
+
+# QuellaUART local/runtime files
+QuellaUART/
+QuellaUART/.venv/
+QuellaUART/captures/*.bin
+QuellaUART/captures/*.hex
+QuellaUART/captures/*.csv
+QuellaUART/captures/*.json
