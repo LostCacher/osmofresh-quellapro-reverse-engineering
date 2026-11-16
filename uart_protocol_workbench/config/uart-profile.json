@@ -1,0 +1,205 @@
+{
+  "emulation_mode": "display_emulator",
+  "serial": {
+    "transport": "mega_bridge",
+    "port": "/dev/ttyUSB0",
+    "baud": 115200,
+    "quella_baud": 9600,
+    "data_bits": 8,
+    "parity": "N",
+    "stop_bits": 1
+  },
+  "mega_bridge": {
+    "mode": "DIRECT_PASS",
+    "idle_gap_us": 4000,
+    "sniff_enabled": true
+  },
+  "response_delay_ms": 1.0,
+  "auto_respond": false,
+  "responses": {
+    "A5": "00 00 19 00 96 00 03 B8 7A 00 00 94 19 00 F9 00 03 8A",
+    "E5 B2": "00 00 00 00 20 0C 00 00 00 00 00 00 00 00 00 B2 00 DE",
+    "E5 E1": "00 02 EE 35 00 00 00 00 00 00 00 00 00 08 CA E1 02 D8"
+  },
+  "response_sets": {
+    "A5": {
+      "shared_data": {},
+      "selected_state": "observed_state_a",
+      "payload_states": [
+        {
+          "id": "observed_state_a",
+          "name": "Idle",
+          "enabled": true,
+          "response": "00 00 19 00 96 00 03 B8 7A 00 00 94 19 00 F9 00 03 8A"
+        }
+      ]
+    },
+    "E5 B2": {
+      "shared_data": {},
+      "selected_state": "observed_state_a",
+      "payload_states": [
+        {
+          "id": "observed_state_a",
+          "name": "Idle",
+          "enabled": true,
+          "response": "00 00 00 00 20 0C 00 00 00 00 00 00 00 00 00 B2 00 DE"
+        }
+      ]
+    },
+    "E5 E1": {
+      "shared_data": {},
+      "selected_state": "observed_state_a",
+      "payload_states": [
+        {
+          "id": "observed_state_a",
+          "name": "Idle",
+          "enabled": true,
+          "response": "00 02 EE 35 00 00 00 00 00 00 00 00 00 08 CA E1 02 D8"
+        }
+      ]
+    }
+  },
+  "auto_checksum": {
+    "A5": true,
+    "E5 B2": true,
+    "E5 E1": true
+  },
+  "display_role": {
+    "requests": {
+      "A5": {
+        "enabled": true,
+        "delay_ms": 80
+      },
+      "E5 B2": {
+        "enabled": true,
+        "delay_ms": 80
+      },
+      "E5 E1": {
+        "enabled": true,
+        "delay_ms": 130
+      },
+      "AA": {
+        "enabled": false,
+        "delay_ms": 0
+      }
+    },
+    "aa_payload_sequence": [
+      {
+        "name": "[AA 00] Dispense",
+        "enabled": true,
+        "payload": "00 01 19 00 96 00 00 00 00 00 00 00 00 00 00 00",
+        "description": "Dispense RT 150 ml 700 ml/min",
+        "auto_checksum": true,
+        "checksum": "00 00",
+        "knowledge_class": "control_setpoint_00"
+      },
+      {
+        "name": "[AA 00] Dispense Abort",
+        "enabled": true,
+        "payload": "00 00 19 00 96 00 00 00 00 00 00 00 00 00 00 00",
+        "description": "Dispense ABORT",
+        "auto_checksum": true,
+        "checksum": "00 00",
+        "knowledge_class": "control_setpoint_00"
+      },
+      {
+        "name": "[AA E1] Set Feed pumpe Speed",
+        "enabled": true,
+        "payload": "02 00 02 EE 00 00 00 00 00 00 00 00 00 00 00 E1",
+        "description": "750 ml/min",
+        "auto_checksum": true,
+        "checksum": "00 E1",
+        "knowledge_class": "system_process_e1"
+      },
+      {
+        "name": "[AA A3] Flush / Filter Process Abort",
+        "enabled": true,
+        "payload": "00 00 00 00 68 02 00 00 00 00 00 00 00 00 00 A3",
+        "description": "Abort Flush / Filter Process",
+        "auto_checksum": true,
+        "checksum": "00 A3",
+        "knowledge_class": "system_process_a3"
+      },
+      {
+        "name": "[AA A3] Filter Process",
+        "enabled": true,
+        "payload": "00 00 00 00 78 02 00 00 00 00 00 00 00 00 00 A3",
+        "description": "Start Filter / Refill Process",
+        "auto_checksum": true,
+        "checksum": "00 A3",
+        "knowledge_class": "system_process_a3"
+      },
+      {
+        "name": "[AA A3] Flush Process",
+        "enabled": true,
+        "payload": "00 00 00 00 7C 02 00 00 00 00 00 00 00 00 00 A3",
+        "description": "Start Flush Process",
+        "auto_checksum": true,
+        "checksum": "00 A3",
+        "knowledge_class": "system_process_a3"
+      }
+    ],
+    "aa_round_robin": true,
+    "aa_hold_index": 0,
+    "allow_aa_control": false,
+    "retry_aa": false,
+    "ack_timeout_ms": 100,
+    "response_timeout_ms": 100,
+    "auto_aa_enabled": false,
+    "auto_aa_mode": "AUTO",
+    "auto_temperature": 25,
+    "auto_volume_ml": 50,
+    "auto_dispense_command": 128,
+    "auto_a3_mode": 120,
+    "auto_a3_phase": 0,
+    "auto_e1_flow_parameter": 750,
+    "live_value_fields": [
+      {
+        "field": "a5_outlet_temperature",
+        "format": "Decimal",
+        "unit": "\u00b0C"
+      },
+      {
+        "field": "a5_inlet_temperature",
+        "format": "Decimal",
+        "unit": "\u00b0C"
+      },
+      {
+        "field": "a5_ac_mains_voltage",
+        "format": "Decimal",
+        "unit": "V"
+      },
+      {
+        "field": "a5_current_dispensed_volume",
+        "format": "Decimal",
+        "unit": "ml"
+      },
+      {
+        "field": "a5_total_dispensed_volume",
+        "format": "Decimal",
+        "unit": "ml"
+      },
+      {
+        "field": "e1_flow_parameter",
+        "format": "Decimal",
+        "unit": "ml/min"
+      },
+      {
+        "field": "b2_external_available",
+        "format": "Decimal",
+        "unit": "bool"
+      },
+      {
+        "field": "b2_internal_low_sensor",
+        "format": "Decimal",
+        "unit": "bool"
+      },
+      {
+        "field": "b2_internal_high_sensor",
+        "format": "Decimal",
+        "unit": "bool"
+      }
+    ],
+    "auto_polling": false
+  }
+}

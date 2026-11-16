@@ -1,0 +1,66 @@
+# KiCad cache and local settings
+*.kicad_prl
+*.kicad_pro-bak
+*.lck
+**/_autosave-*
+*-backups/
+fp-info-cache
+sym-lib-table-bak
+
+# Backup files
+*-bak
+*.bak
+*.tmp
+*~
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+
+# Datasheets
+Datasheets/
+
+# Pulseview files
+pulseview/
+
+# UART Protocol Workbench runtime/private files (source is publishable)
+uart_protocol_workbench/evidence/runtime/
+uart_protocol_workbench/logs/*
+!uart_protocol_workbench/logs/.gitkeep
+**/secrets.h
+**/.env
+**/.env.*
+!**/.env.example
+
+# Docker: publish only the self-contained Quella service. The private
+# homeserver core, logs, routing and unrelated projects stay local.
+docker/*
+!docker/projects/
+docker/projects/*
+!docker/projects/osmofresh-quella-pro/
+
+# Tmp
+tmp/
+
+# SOC
+/SOC Programm/
+
+# Proprietary vendor tools and binary installers
+/Keil_C51/
+*.exe
+*.dll
+*.chm
+
+# Local/generated runtime data
+**/__pycache__/
+**/.pytest_cache/
+**/data/*.json
+**/data/*.tmp
+**/tmp/health.json

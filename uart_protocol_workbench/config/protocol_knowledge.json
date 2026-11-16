@@ -1,0 +1,938 @@
+{
+  "schema_version": 10,
+  "checksum_model": "SUM16_BE",
+  "knowledge_scope": "shared_per_frame_type_except_aa_payload_class",
+  "datasets": {
+    "A5": {
+      "bytes": [
+        {
+          "offset": 0,
+          "category": "UNKNOWN",
+          "meaning": "UNKNOWN",
+          "confidence": "UNKNOWN"
+        },
+        {
+          "offset": 1,
+          "category": "BITFIELD",
+          "meaning": "States",
+          "confidence": "LOW",
+          "bits": {
+            "7": {
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            "6": {
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            "5": {
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            "4": {
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            "3": {
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            "2": {
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            "1": {
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            "0": {
+              "meaning": "00 idle; 01 dispensing",
+              "confidence": "LOW"
+            }
+          }
+        },
+        {
+          "offset": 2,
+          "category": "TEMPERATURE",
+          "meaning": "Outlet Temperatur",
+          "confidence": "CONFIRMED"
+        },
+        {
+          "offset": 3,
+          "category": "COUNTER",
+          "meaning": "Current Dispensed Volume ml [HIGH byte]",
+          "confidence": "CONFIRMED"
+        },
+        {
+          "offset": 4,
+          "category": "ENUM",
+          "meaning": "Current Dispensed Volume ml [LOW byte]",
+          "confidence": "CONFIRMED"
+        },
+        {
+          "offset": 5,
+          "category": "COUNTER",
+          "meaning": "Total Dispensed Volume Counter ml [MSB]",
+          "confidence": "MEDIUM"
+        },
+        {
+          "offset": 6,
+          "category": "COUNTER",
+          "meaning": "Total Dispensed Volume Counter ml [byte 2]",
+          "confidence": "HIGH"
+        },
+        {
+          "offset": 7,
+          "category": "COUNTER",
+          "meaning": "Total Dispensed Volume Counter ml [byte 1]",
+          "confidence": "STRONG"
+        },
+        {
+          "offset": 8,
+          "category": "COUNTER",
+          "meaning": "Total Dispensed Volume Counter ml [LSB]",
+          "confidence": "STRONG"
+        },
+        {
+          "offset": 9,
+          "category": "BITFIELD",
+          "meaning": "Error Codes",
+          "confidence": "STRONG",
+          "bits": {
+            "7": {
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            "6": {
+              "meaning": "? / Error Code [E0]",
+              "confidence": "STRONG"
+            },
+            "5": {
+              "meaning": "? / Error Code [E6]",
+              "confidence": "STRONG"
+            },
+            "4": {
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            "3": {
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            "2": {
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            "1": {
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            "0": {
+              "meaning": "? / Error Code [E8]",
+              "confidence": "STRONG"
+            }
+          }
+        },
+        {
+          "offset": 10,
+          "category": "BITFIELD",
+          "meaning": "Error Codes",
+          "confidence": "STRONG",
+          "bits": {
+            "7": {
+              "meaning": "? / Error Code [E9]",
+              "confidence": "STRONG"
+            },
+            "6": {
+              "meaning": "? / Error Code [E7]",
+              "confidence": "STRONG"
+            },
+            "5": {
+              "meaning": "Inlet temp fault / Error Code [E2]",
+              "confidence": "STRONG"
+            },
+            "4": {
+              "meaning": "? / Error Code [E5]",
+              "confidence": "STRONG"
+            },
+            "3": {
+              "meaning": "? / Error Code [E4]",
+              "confidence": "STRONG"
+            },
+            "2": {
+              "meaning": "? / Error Code [EA]",
+              "confidence": "STRONG"
+            },
+            "1": {
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            "0": {
+              "meaning": "Outlet temp fault / Error Code [E3]",
+              "confidence": "CONFIRMED"
+            }
+          }
+        },
+        {
+          "offset": 11,
+          "category": "BITFIELD",
+          "meaning": "States",
+          "confidence": "MEDIUM",
+          "bits": {
+            "7": {
+              "meaning": "Base/Operating Flag",
+              "confidence": "LOW"
+            },
+            "6": {
+              "meaning": "900 Watt heater/control",
+              "confidence": "MEDIUM"
+            },
+            "5": {
+              "meaning": "1200 Watt heater/control",
+              "confidence": "MEDIUM"
+            },
+            "4": {
+              "meaning": "Device ON / Ready for Operation",
+              "confidence": "LOW"
+            },
+            "3": {
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            "2": {
+              "meaning": "Internal Tank ABOVE HIGH [0=above high | 1=below high]",
+              "confidence": "CONFIRMED"
+            },
+            "1": {
+              "meaning": "Flush Process Active",
+              "confidence": "STRONG"
+            },
+            "0": {
+              "meaning": "Internal Tank BELOW LOW [1=below low | 0=above low]",
+              "confidence": "CONFIRMED"
+            }
+          }
+        },
+        {
+          "offset": 12,
+          "category": "TEMPERATURE",
+          "meaning": "Inlet Temperatur",
+          "confidence": "CONFIRMED"
+        },
+        {
+          "offset": 13,
+          "category": "BITFIELD",
+          "meaning": "Heating/control mode",
+          "confidence": "HIGH",
+          "bits": {
+            "7": {
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            "6": {
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            "5": {
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            "4": {
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            "3": {
+              "meaning": "strong  heating",
+              "confidence": "MEDIUM"
+            },
+            "2": {
+              "meaning": "high  heating",
+              "confidence": "MEDIUM"
+            },
+            "1": {
+              "meaning": "medium heating",
+              "confidence": "MEDIUM"
+            },
+            "0": {
+              "meaning": "low heating",
+              "confidence": "MEDIUM"
+            }
+          }
+        },
+        {
+          "offset": 14,
+          "category": "VALUE",
+          "meaning": "AC Mains Voltage V",
+          "confidence": "CONFIRMED"
+        },
+        {
+          "offset": 15,
+          "category": "UNKNOWN",
+          "meaning": "UNKNOWN",
+          "confidence": "UNKNOWN"
+        }
+      ],
+      "shared_data": {},
+      "sum16_high": {
+        "meaning": "SUM16 high byte",
+        "confidence": "CONFIRMED"
+      },
+      "sum16_low": {
+        "meaning": "SUM16 low byte",
+        "confidence": "CONFIRMED"
+      }
+    },
+    "E5 B2": {
+      "bytes": [
+        {
+          "offset": 0,
+          "category": "UNKNOWN",
+          "meaning": "UNKNOWN",
+          "confidence": "UNKNOWN"
+        },
+        {
+          "offset": 1,
+          "category": "UNKNOWN",
+          "meaning": "UNKNOWN",
+          "confidence": "UNKNOWN"
+        },
+        {
+          "offset": 2,
+          "category": "UNKNOWN",
+          "meaning": "UNKNOWN",
+          "confidence": "UNKNOWN"
+        },
+        {
+          "offset": 3,
+          "category": "VALUE",
+          "meaning": "TDS measurement value (latched on falling edge of D11.bit4 update strobe)",
+          "confidence": "HIGH"
+        },
+        {
+          "offset": 4,
+          "category": "BITFIELD",
+          "meaning": "Watertanks state",
+          "confidence": "STRONG",
+          "bits": {
+            "7": {
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            "6": {
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            "5": {
+              "meaning": "Internal Tank ABOVE HIGH [0=above high | 1=below high]",
+              "confidence": "CONFIRMED"
+            },
+            "4": {
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            "3": {
+              "meaning": "Internal Tank BELOW LOW [1=below low | 0=above low]",
+              "confidence": "CONFIRMED"
+            },
+            "2": {
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            "1": {
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            "0": {
+              "meaning": "External Tank Water Available [0=available | 1=empty]",
+              "confidence": "CONFIRMED"
+            }
+          }
+        },
+        {
+          "offset": 5,
+          "category": "UNKNOWN",
+          "meaning": "UNKNOWN",
+          "confidence": "UNKNOWN"
+        },
+        {
+          "offset": 6,
+          "category": "UNKNOWN",
+          "meaning": "UNKNOWN",
+          "confidence": "UNKNOWN"
+        },
+        {
+          "offset": 7,
+          "category": "UNKNOWN",
+          "meaning": "UNKNOWN",
+          "confidence": "UNKNOWN"
+        },
+        {
+          "offset": 8,
+          "category": "UNKNOWN",
+          "meaning": "UNKNOWN",
+          "confidence": "UNKNOWN"
+        },
+        {
+          "offset": 9,
+          "category": "UNKNOWN",
+          "meaning": "UNKNOWN",
+          "confidence": "UNKNOWN"
+        },
+        {
+          "offset": 10,
+          "category": "UNKNOWN",
+          "meaning": "UNKNOWN",
+          "confidence": "UNKNOWN"
+        },
+        {
+          "offset": 11,
+          "category": "BITFIELD",
+          "meaning": "States (bit 4 Update FLAG)",
+          "confidence": "MEDIUM",
+          "bits": {
+            "7": {
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            "6": {
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            "5": {
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            "4": {
+              "meaning": "TDS Data[3] update/latch strobe; falling edge commits stable value",
+              "confidence": "HIGH"
+            },
+            "3": {
+              "meaning": "Periodic refresh/scheduler pulse (~20 s); not the TDS Data[3] latch",
+              "confidence": "HIGH"
+            },
+            "2": {
+              "meaning": "Booster / filtration process active",
+              "confidence": "CONFIRMED"
+            },
+            "1": {
+              "meaning": "Wastewater flush valve energized/open",
+              "confidence": "CONFIRMED"
+            },
+            "0": {
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            }
+          }
+        },
+        {
+          "offset": 12,
+          "category": "UNKNOWN",
+          "meaning": "UNKNOWN",
+          "confidence": "UNKNOWN"
+        },
+        {
+          "offset": 13,
+          "category": "BITFIELD",
+          "meaning": "TDS measurement state",
+          "confidence": "HIGH",
+          "bits": {
+            "7": {
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            "6": {
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            "5": {
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            "4": {
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            "3": {
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            "2": {
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            "1": {
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            "0": {
+              "meaning": "TDS measurement active / Data[3] valid",
+              "confidence": "HIGH"
+            }
+          }
+        },
+        {
+          "offset": 14,
+          "category": "POWER",
+          "meaning": "Booster-pump power (approximately 1 digit = 1 W; feed-pump and heater power excluded)",
+          "confidence": "STRONG"
+        },
+        {
+          "offset": 15,
+          "category": "UNKNOWN",
+          "meaning": "UNKNOWN",
+          "confidence": "UNKNOWN"
+        }
+      ],
+      "shared_data": {},
+      "sum16_high": {
+        "meaning": "SUM16 high byte",
+        "confidence": "CONFIRMED"
+      },
+      "sum16_low": {
+        "meaning": "SUM16 low byte",
+        "confidence": "CONFIRMED"
+      }
+    },
+    "E5 E1": {
+      "bytes": [
+        {
+          "offset": 0,
+          "category": "UNKNOWN",
+          "meaning": "UNKNOWN",
+          "confidence": "UNKNOWN"
+        },
+        {
+          "offset": 1,
+          "category": "VALUE",
+          "meaning": "Feed Pump Control Parameter ml/min [HIGH byte]",
+          "confidence": "MEDIUM"
+        },
+        {
+          "offset": 2,
+          "category": "VALUE",
+          "meaning": "Feed Pump Control Parameter ml/min [LOW byte]",
+          "confidence": "MEDIUM"
+        },
+        {
+          "offset": 3,
+          "category": "UNKNOWN",
+          "meaning": "UNKNOWN",
+          "confidence": "UNKNOWN"
+        },
+        {
+          "offset": 4,
+          "category": "UNKNOWN",
+          "meaning": "UNKNOWN",
+          "confidence": "UNKNOWN"
+        },
+        {
+          "offset": 5,
+          "category": "UNKNOWN",
+          "meaning": "UNKNOWN",
+          "confidence": "UNKNOWN"
+        },
+        {
+          "offset": 6,
+          "category": "UNKNOWN",
+          "meaning": "UNKNOWN",
+          "confidence": "UNKNOWN"
+        },
+        {
+          "offset": 7,
+          "category": "UNKNOWN",
+          "meaning": "UNKNOWN",
+          "confidence": "UNKNOWN"
+        },
+        {
+          "offset": 8,
+          "category": "UNKNOWN",
+          "meaning": "UNKNOWN",
+          "confidence": "UNKNOWN"
+        },
+        {
+          "offset": 9,
+          "category": "UNKNOWN",
+          "meaning": "UNKNOWN",
+          "confidence": "UNKNOWN"
+        },
+        {
+          "offset": 10,
+          "category": "UNKNOWN",
+          "meaning": "UNKNOWN",
+          "confidence": "UNKNOWN"
+        },
+        {
+          "offset": 11,
+          "category": "UNKNOWN",
+          "meaning": "UNKNOWN",
+          "confidence": "UNKNOWN"
+        },
+        {
+          "offset": 12,
+          "category": "UNKNOWN",
+          "meaning": "UNKNOWN",
+          "confidence": "UNKNOWN"
+        },
+        {
+          "offset": 13,
+          "category": "UNKNOWN",
+          "meaning": "UNKNOWN",
+          "confidence": "UNKNOWN"
+        },
+        {
+          "offset": 14,
+          "category": "UNKNOWN",
+          "meaning": "UNKNOWN",
+          "confidence": "UNKNOWN"
+        },
+        {
+          "offset": 15,
+          "category": "UNKNOWN",
+          "meaning": "UNKNOWN",
+          "confidence": "UNKNOWN"
+        }
+      ],
+      "shared_data": {},
+      "sum16_high": {
+        "meaning": "SUM16 high byte",
+        "confidence": "CONFIRMED"
+      },
+      "sum16_low": {
+        "meaning": "SUM16 low byte",
+        "confidence": "CONFIRMED"
+      }
+    },
+    "AA": {
+      "payload_classes": {
+        "control_setpoint_00": {
+          "name": "CONTROL / SETPOINT",
+          "discriminator": {
+            "offset": 15,
+            "value": "00"
+          },
+          "bytes": [
+            {
+              "offset": 0,
+              "category": "UNKNOWN",
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            {
+              "offset": 1,
+              "category": "ENUM",
+              "meaning": "Set Dispense [80=idel |00=dispens abort | 01=dispense start ]",
+              "confidence": "CONFIRMED"
+            },
+            {
+              "offset": 2,
+              "category": "VALUE",
+              "meaning": "Set Temperature setpoint °C",
+              "confidence": "CONFIRMED"
+            },
+            {
+              "offset": 3,
+              "category": "VALUE",
+              "meaning": "Set Volume setpoint [HIGH byte]",
+              "confidence": "CONFIRMED"
+            },
+            {
+              "offset": 4,
+              "category": "VALUE",
+              "meaning": "Set Volume setpoint [LOW byte]",
+              "confidence": "CONFIRMED"
+            },
+            {
+              "offset": 5,
+              "category": "UNKNOWN",
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            {
+              "offset": 6,
+              "category": "UNKNOWN",
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            {
+              "offset": 7,
+              "category": "UNKNOWN",
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            {
+              "offset": 8,
+              "category": "UNKNOWN",
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            {
+              "offset": 9,
+              "category": "UNKNOWN",
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            {
+              "offset": 10,
+              "category": "UNKNOWN",
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            {
+              "offset": 11,
+              "category": "UNKNOWN",
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            {
+              "offset": 12,
+              "category": "UNKNOWN",
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            {
+              "offset": 13,
+              "category": "UNKNOWN",
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            {
+              "offset": 14,
+              "category": "UNKNOWN",
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            {
+              "offset": 15,
+              "category": "UNKNOWN",
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            }
+          ]
+        },
+        "system_process_a3": {
+          "name": "SYSTEM / PROCESS A3",
+          "discriminator": {
+            "offset": 15,
+            "value": "A3"
+          },
+          "bytes": [
+            {
+              "offset": 0,
+              "category": "UNKNOWN",
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            {
+              "offset": 1,
+              "category": "UNKNOWN",
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            {
+              "offset": 2,
+              "category": "UNKNOWN",
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            {
+              "offset": 3,
+              "category": "UNKNOWN",
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            {
+              "offset": 4,
+              "category": "ENUM",
+              "meaning": "Set Process [68=idle | 78=filter | 7C=flush]",
+              "confidence": "UNKNOWN"
+            },
+            {
+              "offset": 5,
+              "category": "UNKNOWN",
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            {
+              "offset": 6,
+              "category": "UNKNOWN",
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            {
+              "offset": 7,
+              "category": "UNKNOWN",
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            {
+              "offset": 8,
+              "category": "UNKNOWN",
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            {
+              "offset": 9,
+              "category": "UNKNOWN",
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            {
+              "offset": 10,
+              "category": "UNKNOWN",
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            {
+              "offset": 11,
+              "category": "UNKNOWN",
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            {
+              "offset": 12,
+              "category": "UNKNOWN",
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            {
+              "offset": 13,
+              "category": "UNKNOWN",
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            {
+              "offset": 14,
+              "category": "UNKNOWN",
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            {
+              "offset": 15,
+              "category": "UNKNOWN",
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            }
+          ]
+        },
+        "system_process_e1": {
+          "name": "SYSTEM / PROCESS E1",
+          "discriminator": {
+            "offset": 15,
+            "value": "E1"
+          },
+          "bytes": [
+            {
+              "offset": 0,
+              "category": "UNKNOWN",
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            {
+              "offset": 1,
+              "category": "UNKNOWN",
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            {
+              "offset": 2,
+              "category": "VALUE",
+              "meaning": "Set Feed Pump Control Parameter ml/min [HIGH byte]",
+              "confidence": "CONFIRMED"
+            },
+            {
+              "offset": 3,
+              "category": "VALUE",
+              "meaning": "Set Feed Pump Control Parameter ml/min [LOW byte]",
+              "confidence": "CONFIRMED"
+            },
+            {
+              "offset": 4,
+              "category": "UNKNOWN",
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            {
+              "offset": 5,
+              "category": "UNKNOWN",
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            {
+              "offset": 6,
+              "category": "UNKNOWN",
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            {
+              "offset": 7,
+              "category": "UNKNOWN",
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            {
+              "offset": 8,
+              "category": "UNKNOWN",
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            {
+              "offset": 9,
+              "category": "UNKNOWN",
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            {
+              "offset": 10,
+              "category": "UNKNOWN",
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            {
+              "offset": 11,
+              "category": "UNKNOWN",
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            {
+              "offset": 12,
+              "category": "UNKNOWN",
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            {
+              "offset": 13,
+              "category": "UNKNOWN",
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            {
+              "offset": 14,
+              "category": "UNKNOWN",
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            },
+            {
+              "offset": 15,
+              "category": "UNKNOWN",
+              "meaning": "UNKNOWN",
+              "confidence": "UNKNOWN"
+            }
+          ]
+        }
+      },
+      "shared_data": {},
+      "sum16_high": {
+        "meaning": "SUM16 high byte",
+        "confidence": "CONFIRMED"
+      },
+      "sum16_low": {
+        "meaning": "SUM16 low byte",
+        "confidence": "CONFIRMED"
+      },
+      "header": {
+        "meaning": "AA frame header (excluded from SUM16)",
+        "confidence": "CONFIRMED"
+      }
+    }
+  }
+}

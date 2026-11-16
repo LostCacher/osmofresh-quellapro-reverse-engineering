@@ -1,0 +1,17 @@
+[Unit]
+Description=Quella Pro Web HMI (Docker Compose)
+Requires=docker.service
+After=docker.service network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+WorkingDirectory=/srv/docker/projects/osmofresh-quella-pro
+ExecStart=/usr/bin/docker compose up -d --build osmofresh-quella-pro-web
+ExecReload=/usr/bin/docker compose up -d --build osmofresh-quella-pro-web
+ExecStop=/usr/bin/docker compose stop osmofresh-quella-pro-web
+TimeoutStartSec=0
+
+[Install]
+WantedBy=multi-user.target

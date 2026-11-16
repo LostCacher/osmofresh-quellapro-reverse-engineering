@@ -1,0 +1,38 @@
+{
+  "A5": {
+    "shared_data": {},
+    "selected_state": "observed_state_a",
+    "payload_states": [
+      {
+        "id": "observed_state_a",
+        "name": "Idle",
+        "enabled": true,
+        "response": "00 00 19 00 96 00 03 B8 7A 00 00 94 19 00 F9 00 03 8A"
+      }
+    ]
+  },
+  "E5 B2": {
+    "shared_data": {},
+    "selected_state": "observed_state_a",
+    "payload_states": [
+      {
+        "id": "observed_state_a",
+        "name": "Idle",
+        "enabled": true,
+        "response": "00 00 00 00 20 0C 00 00 00 00 00 00 00 00 00 B2 00 DE"
+      }
+    ]
+  },
+  "E5 E1": {
+    "shared_data": {},
+    "selected_state": "observed_state_a",
+    "payload_states": [
+      {
+        "id": "observed_state_a",
+        "name": "Idle",
+        "enabled": true,
+        "response": "00 02 EE 35 00 00 00 00 00 00 00 00 00 08 CA E1 02 D8"
+      }
+    ]
+  }
+}

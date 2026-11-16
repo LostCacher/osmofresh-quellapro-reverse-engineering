@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "description": "Reusable Display Emulator AA command presets",
+  "aa_commands": [
+    {
+      "name": "[AA 00] Dispense",
+      "enabled": true,
+      "payload": "00 01 19 00 96 00 00 00 00 00 00 00 00 00 00 00",
+      "description": "Dispense RT 150 ml 700 ml/min",
+      "auto_checksum": true,
+      "checksum": "00 00",
+      "knowledge_class": "control_setpoint_00"
+    },
+    {
+      "name": "[AA 00] Dispense Abort",
+      "enabled": true,
+      "payload": "00 00 19 00 96 00 00 00 00 00 00 00 00 00 00 00",
+      "description": "Dispense ABORT",
+      "auto_checksum": true,
+      "checksum": "00 00",
+      "knowledge_class": "control_setpoint_00"
+    },
+    {
+      "name": "[AA E1] Set Feed pumpe Speed",
+      "enabled": true,
+      "payload": "02 00 02 EE 00 00 00 00 00 00 00 00 00 00 00 E1",
+      "description": "750 ml/min",
+      "auto_checksum": true,
+      "checksum": "00 E1",
+      "knowledge_class": "system_process_e1"
+    },
+    {
+      "name": "[AA A3] Flush / Filter Process Abort",
+      "enabled": true,
+      "payload": "00 00 00 00 68 02 00 00 00 00 00 00 00 00 00 A3",
+      "description": "Abort Flush / Filter Process",
+      "auto_checksum": true,
+      "checksum": "00 A3",
+      "knowledge_class": "system_process_a3"
+    },
+    {
+      "name": "[AA A3] Filter Process",
+      "enabled": true,
+      "payload": "00 00 00 00 78 02 00 00 00 00 00 00 00 00 00 A3",
+      "description": "Start Filter / Refill Process",
+      "auto_checksum": true,
+      "checksum": "00 A3",
+      "knowledge_class": "system_process_a3"
+    },
+    {
+      "name": "[AA A3] Flush Process",
+      "enabled": true,
+      "payload": "00 00 00 00 7C 02 00 00 00 00 00 00 00 00 00 A3",
+      "description": "Start Flush Process",
+      "auto_checksum": true,
+      "checksum": "00 A3",
+      "knowledge_class": "system_process_a3"
+    }
+  ]
+}

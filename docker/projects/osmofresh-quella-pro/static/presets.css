@@ -1,0 +1,30 @@
+.preset-card {
+  margin-top: 16px;
+}
+
+.preset-card > p {
+  color: var(--muted);
+}
+
+.preset-row {
+  display: grid;
+  grid-template-columns: minmax(90px, 1fr) minmax(90px, 160px) auto auto auto;
+  gap: 12px;
+  align-items: center;
+  padding: 12px 0;
+  border-top: 1px solid var(--line);
+}
+
+.preset-row input {
+  text-align: right;
+}
+
+@media (max-width: 760px) {
+  .preset-row {
+    grid-template-columns: 1fr minmax(80px, 120px) auto;
+  }
+
+  .preset-row button {
+    grid-column: span 1;
+  }
+}

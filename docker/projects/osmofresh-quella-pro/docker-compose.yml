@@ -1,0 +1,111 @@
+name: myprojects-osmofresh-quella-pro
+
+services:
+  osmofresh-quella-pro:
+    extends:
+      file: /srv/docker/projects/_compose/base.yml
+      service: python-base
+    container_name: osmofresh-quella-pro
+    working_dir: /srv/docker/projects/osmofresh-quella-pro
+    volumes:
+      - ./:/srv/docker/projects/osmofresh-quella-pro:rw
+    environment:
+      QUELLA_UDP_BIND: 0.0.0.0
+      QUELLA_UDP_PORT: 42042
+      QUELLA_STATE_PATH: data/live_state.json
+      QUELLA_STATE_WRITE_INTERVAL: 0.2
+      # Optional hardening: set this to the ESP address, e.g. 10.0.1.27.
+      QUELLA_EXPECTED_SOURCE: "10.0.1.27"
+    ports:
+      - "42042:42042/udp"
+    command: ["python", "-u", "main.py"]
+    healthcheck:
+      test: ["CMD", "python", "healthcheck.py", "receiver"]
+      interval: 15s
+      timeout: 3s
+      retries: 3
+      start_period: 5s
+
+  osmofresh-quella-pro-metrics:
+    extends:
+      file: /srv/docker/projects/_compose/base.yml
+      service: python-base
+    container_name: osmofresh-quella-pro-metrics
+    working_dir: /srv/docker/projects/osmofresh-quella-pro
+    volumes:
+      - ./:/srv/docker/projects/osmofresh-quella-pro:rw
+    environment:
+      QUELLA_STATE_PATH: data/live_state.json
+      QUELLA_METRICS_BIND: 0.0.0.0
+      QUELLA_METRICS_PORT: 8000
+      QUELLA_ONLINE_SECONDS: 5
+    command: ["python", "-u", "victoriametrics_exporter.py"]
+    depends_on:
+      osmofresh-quella-pro:
+        condition: service_healthy
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "python",
+          "/srv/docker/projects/_compose/python/common_healthcheck.py",
+        ]
+      interval: 15s
+      timeout: 3s
+      retries: 3
+      start_period: 5s
+    networks:
+      - default
+
+  osmofresh-quella-pro-web:
+    build:
+      context: .
+      dockerfile: Dockerfile.web
+      # BuildKit's isolated DNS cannot reach the local resolver on this host.
+      # This affects only image construction; the running service still uses
+      # the explicitly declared vm-net and traefik networks below.
+      network: host
+    image: osmofresh-quella-pro-web:local
+    container_name: osmofresh-quella-pro-web
+    restart: unless-stopped
+    working_dir: /srv/docker/projects/osmofresh-quella-pro
+    volumes:
+      - ./:/srv/docker/projects/osmofresh-quella-pro:ro
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      QUELLA_STATE_PATH: /srv/docker/projects/osmofresh-quella-pro/data/live_state.json
+      QUELLA_ESP_URL: ${QUELLA_ESP_URL:-http://10.0.1.27}
+      QUELLA_ESP_API_KEY: ${QUELLA_ESP_API_KEY:-}
+      QUELLA_VM_URL: http://victoriametrics:8428
+      QUELLA_PUBLIC_ORIGIN: https://osmofresh-quella.server.home
+      QUELLA_ONLINE_SECONDS: 5
+    command: ["uvicorn", "web_app.main:app", "--host", "0.0.0.0", "--port", "8001", "--proxy-headers", "--forwarded-allow-ips", "*"]
+    depends_on:
+      osmofresh-quella-pro:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "python", "healthcheck.py", "web"]
+      interval: 15s
+      timeout: 3s
+      retries: 3
+      start_period: 10s
+    networks:
+      - default
+      - traefik
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=traefik"
+      - "traefik.http.routers.osmofresh-quella.rule=Host(`osmofresh-quella.server.home`)"
+      - "traefik.http.routers.osmofresh-quella.entrypoints=websecure"
+      - "traefik.http.routers.osmofresh-quella.tls=true"
+      - "traefik.http.services.osmofresh-quella.loadbalancer.server.port=8001"
+
+networks:
+  default:
+    external: true
+    name: vm-net
+  traefik:
+    external: true
+    name: traefik
